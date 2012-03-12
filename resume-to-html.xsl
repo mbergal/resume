@@ -75,8 +75,25 @@
 
     <xsl:template match="details">
         <div class="employment_details" style="float:left">
-            <h3>Designed and implemented common and client specific features for <a href="http://www.metacommunications.com/products/virtual_ticket">VirtualTicket</a> - company's main product.</h3>
+            <xsl:apply-templates/>
         </div>
+    </xsl:template>
+
+    <xsl:template match="role">
+        <h3><xsl:apply-templates select="description"/></h3>
+        <xsl:apply-templates select="areas"/>
+    </xsl:template>
+
+    <xsl:template match="areas">
+        <ul style="border-left: 1px solid silver;padding-left:20px;margin-bottom: 20px">
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+
+    <xsl:template match="area">
+        <li class="area">
+            <h4><xsl:value-of select="@name"/></h4>
+         </li>
     </xsl:template>
 
     <xsl:template match="topics">
@@ -118,6 +135,9 @@
         </p>
     </xsl:template>
 
+    <xsl:template match="a">
+        <xsl:copy-of select="." />
+    </xsl:template>
     <xsl:template match="important">
         <span class="important"><xsl:apply-templates/></span>
     </xsl:template>
