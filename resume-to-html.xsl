@@ -93,9 +93,51 @@
     <xsl:template match="area">
         <li class="area">
             <h4><xsl:value-of select="@name"/></h4>
+            <xsl:apply-templates/>
          </li>
     </xsl:template>
 
+    <xsl:template match="open-source-work">
+        <div id="open-source-work" class="section">
+            <h2>Open-Source work</h2>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="education">
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <xsl:apply-templates/>
+            </ul>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="history">
+        <li>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    
+    <xsl:template match="references">
+        <div id="references" class="section">
+            <h2>References</h2>
+            <ul>
+                <xsl:apply-templates/>
+            </ul>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="reference">
+        <li>
+            <p class="reference">
+                <xsl:apply-templates select="name"/>, <xsl:apply-templates select="title"/><br/>
+                <xsl:apply-templates select="company"/><br/>
+                Email: <a href="mailto:{email}"><xsl:apply-templates select="email"/></a><br/>
+                Phone: <xsl:apply-templates select="phone"/>
+             </p>
+        </li>
+    </xsl:template>
     <xsl:template match="topics">
         <ul>
             <xsl:apply-templates/>
