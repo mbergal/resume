@@ -1,0 +1,183 @@
+<resume>
+    <person>
+        <name>Misha Bergal</name>
+        <address>1317 Dolen Place, Iowa City, IA 52246</address>
+        <email>misha.bergal@gmail.com</email>
+        <phone>319-936-8228</phone>
+        <github>mbergal</github>
+    </person>
+    <objective>
+        <p>Significantly contribute to building of a product or experience, by participating in such aspects of development
+            as user experience design, programming and testing.</p>
+        <p><important>I value working with smart, passionate and caring team more than compensation levels.</important></p>
+    </objective>
+    <skills>
+        <topics>
+            <topic name="Programming Languages">
+                <item>C#</item>
+                <item>SQL</item>
+                <item>JavaScript</item>
+                <item>HTML</item>
+                <item>CSS + LessCSS</item>
+                <item>XML+XSLT</item>
+                <item>PowerShell 2.0</item>
+            </topic>
+            <topic name="Concepts">
+                <item>OOP</item>
+                <item>SOLID</item>
+                <item>RDBMS</item>
+                <item>ORM</item>
+                <item>TDD</item>
+                <item>BDD</item>
+            </topic>
+            <topic name="Frameworks and Technologies">
+                <topics>
+                    <topic name=".NET">
+                        <item>Castle</item>
+                        <item>NHibernate</item>
+                        <item>ADO.NET</item>
+                        <item>ASP.NET MVC and WebForms</item>
+                        <item>Silverlight</item>
+                        <item>WCF</item>
+                        <item>LINQ</item>
+                        <item>TPL</item>
+                        <item>NUnit</item>
+                    </topic>
+                    <topic name="Web">
+                        <item>HTML</item>
+                        <item>JavaScript</item>
+                        <item>jQuery</item>
+                        <item>CSS + LessCSS</item>
+                        <item>Knockout.js</item>
+                        <item>Jasmine</item>
+                    </topic>
+                    <topic name="RDBMS">
+                        <item>SQL Server 2005/2008</item>
+                        <item>T-SQL</item>
+                        <item>SQL Server Reporting Services</item>
+                    </topic>
+                    <topic name="Version Control Systems">
+                        <item>Mercurial</item>
+                        <item>Perforce</item>
+                        <item>Git</item>
+                        <item>SourceSafe :(</item>
+                    </topic>
+                </topics>
+                <topic name="Tools">
+                    <item>Visual Studio 2008/2010</item>
+                    <item>Resharper</item>
+                    <item>Reflector</item>
+                    <item>CruiseControl.NET</item>
+                    <item>TeamCity</item>
+                    <item>YouTrack</item>
+                </topic>
+            </topic>
+        </topics>
+    </skills>
+    <employment>
+        <position>
+            <from>1995</from>
+            <to>present</to>
+            <title>Software Engineer</title>
+            <company>MetaCommunications Inc., Iowa City, IA</company>
+            <details>
+                <role>
+                    <description>Designed and implemented common and client specific features for <a href="http://www.metacommunications.com/products/virtual_ticket">VirtualTicket</a> - company's main product.</description>
+                    <area name="Product Design">
+                        <p>
+                            Communicated with customers and designed product or client-specific features based on customer requirements.
+                        </p>
+                    </area>
+                    <area name="Implementation">
+                        <p>
+                            Wrote front-ends and back-ends
+                            in JavaScript, using proprietary and well-known components (thousands LOC of JavaScript). Used Jasmine to test complex or important
+                            client-side and server-side components.
+                        </p>
+                    </area>
+                </role>
+                <role>
+                    <description>
+                        Led design and development of company's web product line, in particular Approval Manager (<a
+                            href="http://www.metacommunications.com/products/approval_manager">
+                        www.metacommunications.com/products/approval_manager</a>) -
+                        a web based proofing tool
+                    </description>
+                    <area name="Product Design">
+                        <p >
+                            Defined product roadmaps, product features, did UX design including wireframe prototypes and
+                            full UI and functional specs, managed multi-product releases.
+                        </p>
+                    </area>
+                    <area name="Management">
+                        <p>
+                            Lead teams of 3-5 people. Made sure that they fulfill company expectation and company fulfills theirs. Provided technical and
+                            non-technical leadership, gave seminars, trainings, led code reviews.
+                        </p>
+                    </area>
+                    <area name="Implementation">
+                        <p>
+                            All aspects of implementation - designed layered API's, database schemas, implemented features
+                            (front-end and back-end) using TDD/BDD, wrote reports and database upgrade scripts. Implemented necessary read path SQL queries,
+                            write path SQL batch operations and optimized them (or database schema) for better performance.
+                            </p>
+                        <header>Front-Ends</header>
+                        <p>
+                            Developed Ajax and plain front-ends using such JavaScript libraries as jQuery, Knockout.js and underscore.js, testing critical or complicated user interactions using Jasmine.
+                            Developed HTML and CSS based on UI specs. Created reusable controls (WebForms) or helpers (MVC/Razor) for common view functionality.
+                            Developed SQL Server Reporting Services reports.
+                        </p>
+                        <header>Back-Ends:</header>
+                        <p>
+                            Designed complex database schemas, wrote domain models, services, repositories (before LINQ days) using TDD/BDD (NUnit). Hand-wrote SQL for performance critical pieces.
+                            Implemented web services using WCF. Occasionally utilized UML and ER diagrams to communicate ideas to team members and other project stakeholders.
+                        </p>
+                      <header>Infrastructure</header>
+                      <p>
+                        Wrote or set up major infrastructure pieces - build system (MSBuild, psake, custom build system), CI servers (CCNet,TeamCity).
+                      </p>
+                      <header>Testing</header>
+                      <p>
+                        Performed manual, semi-manual &amp; automated testing as was needed.
+                      </p>
+                    </area>
+                </role>
+            </details>
+        </position>
+    </employment>
+    <open-source-work>
+      <p>
+        My only widely used public project is a part of Boost testing framework responsible for running, collecting
+        and
+        displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source
+        libraries (<a
+ href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
+      </p>
+    </open-source-work>
+    <education>
+      <history>B.S. in Computer Science, Saint Petersburg Technical University.</history>
+    </education>
+    <references>
+      <reference>
+        <name>Bob Long</name>
+        <title>President</title>
+        <company>MetaCommunications</company>
+        <email>blong@meta-comm.com</email>
+        <phone>319-3378599</phone>
+      </reference>
+      <reference>
+        <name>Chris Sutton</name>
+        <title>Senior Software Engineer</title>
+        <company>Center for Public Health Statistics, University of Iowa</company>
+        <email>bdsutton@gmail.com</email>
+        <phone>319-6219093</phone>
+      </reference>
+      <reference>
+        <name>Ilya Buchkin</name>
+        <title>Senior Software Engineer</title>
+        <company>MetaCommunications</company>
+        <email>ibuchkin@meta-comm.com</email>
+        <phone>319-3378599 ext. 191</phone>
+      </reference>
+    </references>
+</resume>
