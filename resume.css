@@ -37,6 +37,11 @@ p {
 .skills li {
     font-weight: bold;
 }
+
+.section#skills .items {
+    margin-left: 40px;
+}
+
 .section {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -54,7 +59,11 @@ ul {
     font-weight: bold;
 }
 
-.section p {
+.section-content>ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.section-content {
     margin-left: 40px;
 }
 

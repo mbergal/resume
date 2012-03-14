@@ -1,4 +1,4 @@
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:output
             method="html"
@@ -13,12 +13,17 @@
 
                 <title><xsl:value-of select="/resume/person/name"/>'s resume</title>
             </head>
-            <div id="content">
-                <xsl:apply-templates/>
-            </div>
-
+            <body>
+                <div id="content">
+                    <xsl:apply-templates/>
+                </div>
+                <div id="footer">
+                    This resume was generated from it's XML source by <a href="https://github.com/mbergal/resume">https://github.com/mbergal/resume</a>
+                </div>
+            </body>
         </html>
     </xsl:template>
+
     <xsl:template match="person">
         <div id="contact_info">
             <span style="text-wrap: none;"><xsl:value-of select="address"/></span><br/>
@@ -31,18 +36,38 @@
     </xsl:template>
 
     <xsl:template match="objective">
-        <div class="section">
-            <h2>Objective</h2>
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'Objective'"/>
+        </xsl:call-template>
+    </xsl:template>
 
-            <xsl:apply-templates/>
+    <xsl:template name="section">
+        <xsl:param name="name"/>
+        <xsl:param name="enclose-in-ul" select="false()"/>
+        <div class="section">
+            <xsl:attribute name="id">
+                <xsl:value-of select='translate( $name, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")'/>
+            </xsl:attribute>
+            <h2><xsl:value-of select="$name"/></h2>
+            <div class="section-content">
+                <xsl:choose>
+                    <xsl:when test="$enclose-in-ul">
+                        <ul>
+                            <xsl:apply-templates/>
+                        </ul>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </div>
         </div>
     </xsl:template>
 
     <xsl:template match="skills">
-        <div id="skills" class="section">
-            <h2>Skills</h2>
-            <xsl:apply-templates/>
-        </div>
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'Skills'"/>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template match="employment">
@@ -98,25 +123,20 @@
     </xsl:template>
 
     <xsl:template match="open-source-work">
-        <div id="open-source-work" class="section">
-            <h2>Open-Source work</h2>
-            <xsl:apply-templates/>
-        </div>
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'Open-Source work'"/>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template match="education">
-        <div id="education" class="section">
-            <h2>Education</h2>
-            <ul>
-                <xsl:apply-templates/>
-            </ul>
-        </div>
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'Education'"/>
+            <xsl:with-param name="enclose-in-ul" select="true()"/>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template match="history">
-        <li>
-            <xsl:apply-templates/>
-        </li>
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="references">
@@ -150,7 +170,7 @@
             <xsl:apply-templates/>
             <span class="important">
                 <xsl:if test="count(item) > 0">
-                    <div>
+                    <div class="items">
                         <xsl:for-each select="item">
                             <xsl:value-of select="."/>
                             <xsl:choose>

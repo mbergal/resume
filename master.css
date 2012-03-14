@@ -1,10 +1,20 @@
 body
     {
     margin: 20px;
+    font-family: Segoe UI, Helvetica, Arial;
+    font-size: 16px;
     }
 
 #content
     {
-    font-family: "Segoe UI";
     font-size: 16px;
+    }
+
+#footer
+    {
+    margin-top: 10px;
+    padding: 10px;
+
+    border-top: 1px solid silver;
+    font-size: 12px;
     }
