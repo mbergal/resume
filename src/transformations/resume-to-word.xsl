@@ -130,7 +130,7 @@
                   <w:link w:val="RoleChar"/>
                   <w:rsid w:val="00BF7024"/>
                   <w:pPr>
-                    <w:spacing w:after="240"/>
+                    <w:spacing w:before="120" w:after="240"/>
                     <w:ind w:left="432"/>
                   </w:pPr>
                   <w:rPr>
@@ -680,22 +680,10 @@
     </xsl:template>
 
     <xsl:template match="p">
-        <xsl:param name="style"/>
+        <xsl:param name="style" select="'NormalText'"/>
         <w:p>
             <w:pPr>
-                <xsl:choose>
-                    <xsl:when test="string($style)">
-                        <w:pStyle w:val="{$style}"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <w:spacing w:after="90"/>
-                        <w:ind w:left="432"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <w:rPr>
-                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
-                    <wx:font wx:val="Segoe UI"/>
-                </w:rPr>
+                <w:pStyle w:val="{$style}"/>
             </w:pPr>
             <w:r>
                 <w:rPr>
@@ -719,7 +707,6 @@
     </xsl:template>
 
     <xsl:template match="a" mode="inline">
-            <w:r><w:t><xsl:text> </xsl:text></w:t></w:r>
             <w:hlink w:dest="{@href}">
                 <w:r>
                     <w:rPr>
@@ -728,13 +715,23 @@
                     <w:t><xsl:apply-templates/></w:t>
                 </w:r>
             </w:hlink>
-            <w:r><w:t><xsl:text> </xsl:text></w:t></w:r>
     </xsl:template>
 
 
     <xsl:template match="text()" mode="inline">
+        <!--<xsl:message>"<xsl:value-of select="."/>"</xsl:message>-->
         <xsl:if test="normalize-space(.)">
-            <w:r><w:t><xsl:value-of select="normalize-space(.)"/></w:t></w:r>
+            <w:r>
+                <w:t>
+                    <xsl:if test="starts-with( ., ' ')">
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+                    <xsl:value-of select="normalize-space(.)"/>
+                    <xsl:if test="substring( ., (string-length(.) - string-length(' ')) + 1) = ' '">
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+                </w:t>
+            </w:r>
         </xsl:if>
     </xsl:template>
 
