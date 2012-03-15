@@ -56,5 +56,5 @@ function ConvertSourceToPDF( $source, $destination )
     }
 
 ConvertSourceToHtml $source ( Join-Path $rootDir "bin\Resume.html" )
-#ConvertSourceToWord $source ( Join-Path $rootDir "bin\Resume.docx" )
-#ConvertSourceToPDF $source ( Join-Path $rootDir "bin\Resume.pdf" )
+ConvertSourceToWord $source ( Join-Path $rootDir "bin\Resume.docx" )
+ConvertSourceToPDF $source ( Join-Path $rootDir "bin\Resume.pdf" )
