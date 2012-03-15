@@ -255,6 +255,32 @@
                     <w:sz-cs w:val="18"/>
                   </w:rPr>
                 </w:style>
+                <w:style w:type="paragraph" w:styleId="ContactInfo">
+                  <w:name w:val="ContactInfo"/>
+                  <w:basedOn w:val="Normal"/>
+                  <w:link w:val="ContactInfoChar"/>
+                  <w:rsid w:val="00522322"/>
+                  <w:pPr>
+                    <w:jc w:val="right"/>
+                  </w:pPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <wx:font wx:val="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="character" w:styleId="ContactInfoChar">
+                  <w:name w:val="ContactInfo Char"/>
+                  <w:basedOn w:val="DefaultParagraphFont"/>
+                  <w:link w:val="ContactInfo"/>
+                  <w:rsid w:val="00522322"/>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
             </w:styles>
             <w:docPr>
                 <w:view w:val="print"/>
@@ -276,10 +302,77 @@
             <w:body>
                 <xsl:apply-templates/>
                 <w:sectPr>
+                    <w:ftr w:type="odd">
+                        <wx:pBdrGroup>
+                          <wx:borders>
+                            <wx:top wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+                          </wx:borders>
+                      <w:p>
+                        <w:pPr>
+                          <w:pStyle w:val="Footer"/>
+                            <w:pBdr>
+                              <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="BFBFBF"/>
+                            </w:pBdr>
+                            <w:jc w:val="right"/>
+                          <w:rPr>
+                            <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                            <wx:font wx:val="Segoe UI"/>
+                            <w:sz w:val="18"/>
+                            <w:sz-cs w:val="18"/>
+                          </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                          <w:rPr>
+                            <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                            <wx:font wx:val="Segoe UI"/>
+                            <w:sz w:val="18"/>
+                            <w:sz-cs w:val="18"/>
+                          </w:rPr>
+                          <w:t>For .XML source. build procedure  and resumes in other formats  see </w:t>
+                        </w:r>
+                        <w:hlink w:dest="http://github.com/mbergal/resume">
+                          <w:r>
+                            <w:rPr>
+                              <w:rStyle w:val="Hyperlink"/>
+                              <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                              <wx:font wx:val="Segoe UI"/>
+                              <w:sz w:val="18"/>
+                              <w:sz-cs w:val="18"/>
+                            </w:rPr>
+                            <w:t>github.com/</w:t>
+                          </w:r>
+                          <w:proofErr w:type="spellStart"/>
+                          <w:r>
+                            <w:rPr>
+                              <w:rStyle w:val="Hyperlink"/>
+                              <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                              <wx:font wx:val="Segoe UI"/>
+                              <w:sz w:val="18"/>
+                              <w:sz-cs w:val="18"/>
+                            </w:rPr>
+                            <w:t>mbergal</w:t>
+                          </w:r>
+                          <w:proofErr w:type="spellEnd"/>
+                          <w:r >
+                            <w:rPr>
+                              <w:rStyle w:val="Hyperlink"/>
+                              <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                              <wx:font wx:val="Segoe UI"/>
+                              <w:sz w:val="18"/>
+                              <w:sz-cs w:val="18"/>
+                            </w:rPr>
+                            <w:t>/resume</w:t>
+                          </w:r>
+                        </w:hlink>
+                      </w:p>
+                      </wx:pBdrGroup>
+                    </w:ftr>
                     <w:pgSz w:w="12240" w:h="15840"/>
-                    <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/><w:cols w:space="720"/>
+                    <w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="0" w:footer="288" w:gutter="0"/>
+                    <w:cols w:space="720"/>
                     <w:docGrid w:line-pitch="360"/>
                 </w:sectPr>
+
             </w:body>
 
         </w:wordDocument>
@@ -289,7 +382,7 @@
     <xsl:template match="person">
         <w:tbl>
           <w:tblPr>
-            <w:tblW w:w="0" w:type="auto"/>
+            <w:tblW w:w="5000" w:type="pct"/>
             <w:tblLook w:val="04A0"/>
           </w:tblPr>
           <w:tblGrid>
@@ -319,7 +412,8 @@
               </w:tcPr>
               <w:p>
                   <w:pPr>
-                    <w:jc w:val="right"/>
+                      <w:pStyle w:val="ContactInfo"/>
+                      <w:jc w:val="right"/>
                   </w:pPr>
                   <w:r>
                     <w:rPr>
