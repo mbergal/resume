@@ -538,6 +538,29 @@
         </xsl:call-template>
     </xsl:template>
 
+    <xsl:template match="reference">
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="NormalText"/>
+            </w:pPr>
+            <w:r><w:t><xsl:value-of select="name"/>, <xsl:value-of select="title"/></w:t></w:r><w:br/>
+            <w:r><w:t><xsl:value-of select="company"/></w:t></w:r><w:br/>
+            <w:r><w:t>EMail: </w:t></w:r>
+            <w:hlink w:dest="mailto:{email}">
+              <w:r >
+                <w:rPr>
+                  <w:rStyle w:val="Hyperlink"/>
+                  <w:color w:val="0000FF"/>
+                </w:rPr>
+                <xsl:apply-templates select="email" mode="inline"/>
+              </w:r>
+            </w:hlink>
+            <w:br/>
+            <w:r>Phone: <w:t><xsl:value-of select="phone"/></w:t></w:r><w:br/>
+
+        </w:p>
+    </xsl:template>
+
     <xsl:template name="section">
         <xsl:param name="name"/>
         <wx:sub-section>
