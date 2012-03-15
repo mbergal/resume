@@ -153,9 +153,6 @@
                   <w:link w:val="AreasChar"/>
                   <w:rsid w:val="00671E66"/>
                   <w:pPr>
-                    <w:pBdr>
-                      <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="10" w:color="auto"/>
-                    </w:pBdr>
                     <w:spacing w:after="90"/>
                     <w:ind w:left="720"/>
                   </w:pPr>
@@ -177,8 +174,78 @@
                     <w:sz-cs w:val="18"/>
                   </w:rPr>
                 </w:style>
+                <w:style w:type="paragraph" w:styleId="Area">
+                  <w:name w:val="Area"/>
+                  <w:basedOn w:val="Normal"/>
+                  <w:link w:val="AreaChar"/>
+                  <w:rsid w:val="00AA1E19"/>
+                  <w:pPr>
+                    <w:spacing w:after="180" w:before="180"/>
+                    <w:ind w:left="320"/>
+                  </w:pPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <wx:font wx:val="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="character" w:styleId="AreaChar">
+                  <w:name w:val="Area Char"/>
+                  <w:basedOn w:val="DefaultParagraphFont"/>
+                  <w:link w:val="Area"/>
+                  <w:rsid w:val="00AA1E19"/>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="paragraph" w:styleId="AreaParagraph">
+                  <w:name w:val="AreaParagraph"/>
+                  <w:basedOn w:val="Normal"/>
+                  <w:link w:val="AreaParagraphChar"/>
+                  <w:rsid w:val="00002600"/>
+                  <w:pPr>
+                    <w:spacing w:after="90"/>
+                    <w:ind w:left="720"/>
+                  </w:pPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <wx:font wx:val="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="character" w:styleId="AreaParagraphChar">
+                  <w:name w:val="AreaParagraph Char"/>
+                  <w:basedOn w:val="DefaultParagraphFont"/>
+                  <w:link w:val="AreaParagraph"/>
+                  <w:rsid w:val="00002600"/>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
             </w:styles>
-
+            <w:docPr>
+                <w:view w:val="print"/>
+                <w:zoom w:percent="100"/>
+                <w:embedTrueTypeFonts/>
+                <w:saveSubsetFonts/>
+                <w:proofState w:spelling="clean"/>
+                <w:defaultTabStop w:val="720"/>
+                <w:characterSpacingControl w:val="DontCompress"/>
+                <w:savePreviewPicture/>
+                <w:validateAgainstSchema/>
+                <w:saveInvalidXML w:val="off"/>
+                <w:ignoreMixedContent w:val="off"/>
+                <w:alwaysShowPlaceholderText w:val="off"/>
+                <w:compat>
+                  <w:breakWrappedTables/>
+                </w:compat>
+              </w:docPr>
             <w:body>
                 <xsl:apply-templates/>
                 <w:sectPr>
@@ -379,13 +446,13 @@
         <xsl:apply-templates select="areas"/>
     </xsl:template>
 
-    <xsl:template match="area">
+    <xsl:template match="areas">
         <w:tbl>
           <w:tblPr>
             <w:tblW w:w="0" w:type="auto"/>
             <w:tblInd w:w="604" w:type="dxa"/>
             <w:tblBorders>
-              <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="BFBFBF"/>
             </w:tblBorders>
             <w:tblLook w:val="04A0"/>
           </w:tblPr>
@@ -401,7 +468,20 @@
             </w:tc>
           </w:tr>
         </w:tbl>
+    </xsl:template>
 
+    <xsl:template match="area">
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Area"/>
+            </w:pPr>
+            <w:r>
+                <w:t><xsl:value-of select="@name"/></w:t>
+            </w:r>
+        </w:p>
+        <xsl:apply-templates>
+            <xsl:with-param name="style" select="'AreaParagraph'"/>
+        </xsl:apply-templates>
     </xsl:template>
 
     <!--<xsl:template match="education">-->
@@ -440,14 +520,19 @@
         </wx:sub-section>
     </xsl:template>
 
-
-
-
     <xsl:template match="p">
+        <xsl:param name="style"/>
         <w:p>
             <w:pPr>
-                <w:spacing w:after="90"/>
-                <w:ind w:left="432"/>
+                <xsl:choose>
+                    <xsl:when test="string($style)">
+                        <w:pStyle w:val="{$style}"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <w:spacing w:after="90"/>
+                        <w:ind w:left="432"/>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
@@ -493,7 +578,5 @@
             <w:r><w:t><xsl:value-of select="normalize-space(.)"/></w:t></w:r>
         </xsl:if>
     </xsl:template>
-
-
 
 </xsl:stylesheet>
