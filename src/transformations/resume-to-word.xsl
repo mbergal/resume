@@ -228,6 +228,33 @@
                     <w:sz-cs w:val="18"/>
                   </w:rPr>
                 </w:style>
+                <w:style w:type="paragraph" w:styleId="NormalText">
+                  <w:name w:val="NormalText"/>
+                  <w:basedOn w:val="Normal"/>
+                  <w:link w:val="NormalTextChar"/>
+                  <w:rsid w:val="002A0870"/>
+                  <w:pPr>
+                    <w:spacing w:after="90"/>
+                    <w:ind w:left="432"/>
+                  </w:pPr>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <wx:font wx:val="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="character" w:styleId="NormalTextChar">
+                  <w:name w:val="NormalText Char"/>
+                  <w:basedOn w:val="DefaultParagraphFont"/>
+                  <w:link w:val="NormalText"/>
+                  <w:rsid w:val="002A0870"/>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
+                    <w:sz w:val="18"/>
+                    <w:sz-cs w:val="18"/>
+                  </w:rPr>
+                </w:style>
             </w:styles>
             <w:docPr>
                 <w:view w:val="print"/>
@@ -484,17 +511,32 @@
         </xsl:apply-templates>
     </xsl:template>
 
-    <!--<xsl:template match="education">-->
-        <!--<xsl:call-template name="section">-->
-            <!--<xsl:with-param name="name" select="'Education'"/>-->
-        <!--</xsl:call-template>-->
-    <!--</xsl:template>-->
+    <xsl:template match="education">
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'Education'"/>
+        </xsl:call-template>
+    </xsl:template>
 
-    <!--<xsl:template match="references">-->
-        <!--<xsl:call-template name="section">-->
-            <!--<xsl:with-param name="name" select="'References'"/>-->
-        <!--</xsl:call-template>-->
-    <!--</xsl:template>-->
+    <xsl:template match="history">
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="NormalText"/>
+            </w:pPr>
+            <xsl:apply-templates mode="inline"/>
+        </w:p>
+    </xsl:template>
+
+    <xsl:template match="open-source-work">
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'Open-Source Work'"/>
+        </xsl:call-template>
+    </xsl:template>
+
+    <xsl:template match="references">
+        <xsl:call-template name="section">
+            <xsl:with-param name="name" select="'References'"/>
+        </xsl:call-template>
+    </xsl:template>
 
     <xsl:template name="section">
         <xsl:param name="name"/>
