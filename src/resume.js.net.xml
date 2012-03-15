@@ -63,14 +63,14 @@
                         <item>SourceSafe :(</item>
                     </topic>
                 </topics>
-                <topic name="Tools">
-                    <item>Visual Studio 2008/2010</item>
-                    <item>Resharper</item>
-                    <item>Reflector</item>
-                    <item>CruiseControl.NET</item>
-                    <item>TeamCity</item>
-                    <item>YouTrack</item>
-                </topic>
+            </topic>
+            <topic name="Tools">
+                <item>Visual Studio 2008/2010</item>
+                <item>Resharper</item>
+                <item>Reflector</item>
+                <item>CruiseControl.NET</item>
+                <item>TeamCity</item>
+                <item>YouTrack</item>
             </topic>
         </topics>
     </skills>
@@ -114,7 +114,7 @@
                         </area>
                         <area name="Management">
                             <p>
-                                Lead teams of 3-5 people. Made sure that they fulfill company expectation and company fulfills theirs. Provided technical and
+                                Led teams of 3-5 people. Made sure that they fulfill company expectation and company fulfills theirs. Provided technical and
                                 non-technical leadership, gave seminars, trainings, led code reviews.
                             </p>
                         </area>
@@ -151,39 +151,39 @@
             </details>
         </position>
     </employment>
-    <open-source-work>
-      <p>
-        My only widely used public project is a part of Boost testing framework responsible for running, collecting
-        and
-        displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source
-        libraries (<a
- href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
-      </p>
-    </open-source-work>
-    <education>
-      <history>B.S. in Computer Science, Saint Petersburg Technical University.</history>
-    </education>
-    <references>
-      <reference>
-        <name>Bob Long</name>
-        <title>President</title>
-        <company>MetaCommunications</company>
-        <email>blong@meta-comm.com</email>
-        <phone>319-3378599</phone>
-      </reference>
-      <reference>
-        <name>Chris Sutton</name>
-        <title>Senior Software Engineer</title>
-        <company>Center for Public Health Statistics, University of Iowa</company>
-        <email>bdsutton@gmail.com</email>
-        <phone>319-6219093</phone>
-      </reference>
-      <reference>
-        <name>Ilya Buchkin</name>
-        <title>Senior Software Engineer</title>
-        <company>MetaCommunications</company>
-        <email>ibuchkin@meta-comm.com</email>
-        <phone>319-3378599 ext. 191</phone>
-      </reference>
-    </references>
+    <!--<open-source-work>-->
+      <!--<p>-->
+        <!--My only widely used public project is a part of Boost testing framework responsible for running, collecting-->
+        <!--and-->
+        <!--displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source-->
+        <!--libraries (<a-->
+ <!--href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).-->
+      <!--</p>-->
+    <!--</open-source-work>-->
+    <!--<education>-->
+      <!--<history>B.S. in Computer Science, Saint Petersburg Technical University.</history>-->
+    <!--</education>-->
+    <!--<references>-->
+      <!--<reference>-->
+        <!--<name>Bob Long</name>-->
+        <!--<title>President</title>-->
+        <!--<company>MetaCommunications</company>-->
+        <!--<email>blong@meta-comm.com</email>-->
+        <!--<phone>319-3378599</phone>-->
+      <!--</reference>-->
+      <!--<reference>-->
+        <!--<name>Chris Sutton</name>-->
+        <!--<title>Senior Software Engineer</title>-->
+        <!--<company>Center for Public Health Statistics, University of Iowa</company>-->
+        <!--<email>bdsutton@gmail.com</email>-->
+        <!--<phone>319-6219093</phone>-->
+      <!--</reference>-->
+      <!--<reference>-->
+        <!--<name>Ilya Buchkin</name>-->
+        <!--<title>Senior Software Engineer</title>-->
+        <!--<company>MetaCommunications</company>-->
+        <!--<email>ibuchkin@meta-comm.com</email>-->
+        <!--<phone>319-3378599 ext. 191</phone>-->
+      <!--</reference>-->
+    <!--</references>-->
 </resume>
