@@ -149,7 +149,7 @@
                 </w:style>
                 <w:style w:type="paragraph" w:styleId="Areas">
                   <w:name w:val="Areas"/>
-                  <w:basedOn w:val="Normal"/>
+                  <w:basedOn w:val="NormalText"/>
                   <w:link w:val="AreasChar"/>
                   <w:rsid w:val="00671E66"/>
                   <w:pPr>
@@ -159,8 +159,8 @@
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="character" w:styleId="AreasChar">
@@ -170,8 +170,8 @@
                   <w:rsid w:val="00671E66"/>
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="paragraph" w:styleId="Area">
@@ -186,8 +186,8 @@
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="character" w:styleId="AreaChar">
@@ -197,8 +197,8 @@
                   <w:rsid w:val="00AA1E19"/>
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="paragraph" w:styleId="AreaParagraph">
@@ -213,8 +213,8 @@
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="character" w:styleId="AreaParagraphChar">
@@ -224,8 +224,8 @@
                   <w:rsid w:val="00002600"/>
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="paragraph" w:styleId="NormalText">
@@ -240,8 +240,8 @@
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="character" w:styleId="NormalTextChar">
@@ -251,8 +251,8 @@
                   <w:rsid w:val="002A0870"/>
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="paragraph" w:styleId="ContactInfo">
@@ -266,8 +266,8 @@
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                   </w:rPr>
                 </w:style>
                 <w:style w:type="character" w:styleId="ContactInfoChar">
@@ -277,8 +277,30 @@
                   <w:rsid w:val="00522322"/>
                   <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="paragraph" w:styleId="AreaSubHeader">
+                  <w:name w:val="AreaSubHeader"/>
+                  <w:basedOn w:val="NormalText"/>
+                  <w:link w:val="AreaSubHeaderChar"/>
+                  <w:rsid w:val="00906A79"/>
+                  <w:pPr>
+                    <w:spacing w:before="240" w:after="120"/>
+                    <w:ind w:left="720"/>
+                  </w:pPr>
+                  <w:rPr>
+                    <wx:font wx:val="Segoe UI"/>
+                  </w:rPr>
+                </w:style>
+                <w:style w:type="character" w:styleId="AreaSubHeaderChar">
+                  <w:name w:val="AreaSubHeader Char"/>
+                  <w:basedOn w:val="DefaultParagraphFont"/>
+                  <w:link w:val="AreaSubHeader"/>
+                  <w:rsid w:val="00906A79"/>
+                  <w:rPr>
+                    <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                   </w:rPr>
                 </w:style>
             </w:styles>
@@ -317,16 +339,16 @@
                           <w:rPr>
                             <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                             <wx:font wx:val="Segoe UI"/>
-                            <w:sz w:val="18"/>
-                            <w:sz-cs w:val="18"/>
+                            <w:sz w:val="20"/>
+                            <w:sz-cs w:val="20"/>
                           </w:rPr>
                         </w:pPr>
                         <w:r>
                           <w:rPr>
                             <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                             <wx:font wx:val="Segoe UI"/>
-                            <w:sz w:val="18"/>
-                            <w:sz-cs w:val="18"/>
+                            <w:sz w:val="20"/>
+                            <w:sz-cs w:val="20"/>
                           </w:rPr>
                           <w:t>For .XML source. build procedure  and resumes in other formats  see </w:t>
                         </w:r>
@@ -336,8 +358,8 @@
                               <w:rStyle w:val="Hyperlink"/>
                               <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                               <wx:font wx:val="Segoe UI"/>
-                              <w:sz w:val="18"/>
-                              <w:sz-cs w:val="18"/>
+                              <w:sz w:val="20"/>
+                              <w:sz-cs w:val="20"/>
                             </w:rPr>
                             <w:t>github.com/</w:t>
                           </w:r>
@@ -347,8 +369,8 @@
                               <w:rStyle w:val="Hyperlink"/>
                               <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                               <wx:font wx:val="Segoe UI"/>
-                              <w:sz w:val="18"/>
-                              <w:sz-cs w:val="18"/>
+                              <w:sz w:val="20"/>
+                              <w:sz-cs w:val="20"/>
                             </w:rPr>
                             <w:t>mbergal</w:t>
                           </w:r>
@@ -358,8 +380,8 @@
                               <w:rStyle w:val="Hyperlink"/>
                               <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                               <wx:font wx:val="Segoe UI"/>
-                              <w:sz w:val="18"/>
-                              <w:sz-cs w:val="18"/>
+                              <w:sz w:val="20"/>
+                              <w:sz-cs w:val="20"/>
                             </w:rPr>
                             <w:t>/resume</w:t>
                           </w:r>
@@ -368,7 +390,8 @@
                       </wx:pBdrGroup>
                     </w:ftr>
                     <w:pgSz w:w="12240" w:h="15840"/>
-                    <w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="0" w:footer="288" w:gutter="0"/>
+                    <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="0" w:footer="288" w:gutter="0"/>
+                    <!--<w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="0" w:footer="288" w:gutter="0"/>-->
                     <w:cols w:space="720"/>
                     <w:docGrid w:line-pitch="360"/>
                 </w:sectPr>
@@ -505,8 +528,8 @@
                             <wx:font wx:val="Segoe UI"/>
                             <w:color w:val="000000"/>
                             <w:b/>
-                            <w:sz w:val="18"/>
-                            <w:sz-cs w:val="18"/>
+                            <w:sz w:val="20"/>
+                            <w:sz-cs w:val="20"/>
                         </w:rPr>
                         <w:t>
                         <xsl:for-each select="item">
@@ -605,6 +628,20 @@
         </xsl:apply-templates>
     </xsl:template>
 
+    <xsl:template match="header">
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="AreaSubHeader"/>
+            </w:pPr>
+            <w:r>
+            <w:t>
+            <xsl:value-of select="."/>
+            </w:t>
+            </w:r>
+        </w:p>
+    </xsl:template>
+
+    
     <xsl:template match="education">
         <xsl:call-template name="section">
             <xsl:with-param name="name" select="'Education'"/>
@@ -689,8 +726,8 @@
                 <w:rPr>
                     <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI" w:cs="Segoe UI"/>
                     <wx:font wx:val="Segoe UI"/>
-                    <w:sz w:val="18"/>
-                    <w:sz-cs w:val="18"/>
+                    <w:sz w:val="20"/>
+                    <w:sz-cs w:val="20"/>
                 </w:rPr>
                 <xsl:apply-templates mode="inline"/>
             </w:r>

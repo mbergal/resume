@@ -51,18 +51,18 @@
                         <item>Knockout.js</item>
                         <item>Jasmine</item>
                     </topic>
-                    <topic name="RDBMS">
-                        <item>SQL Server 2005/2008</item>
-                        <item>T-SQL</item>
-                        <item>SQL Server Reporting Services</item>
-                    </topic>
-                    <topic name="Version Control Systems">
-                        <item>Mercurial</item>
-                        <item>Perforce</item>
-                        <item>Git</item>
-                        <item>SourceSafe :(</item>
-                    </topic>
                 </topics>
+            </topic>
+            <topic name="RDBMS">
+                <item>SQL Server 2005/2008</item>
+                <item>T-SQL</item>
+                <item>SQL Server Reporting Services</item>
+            </topic>
+            <topic name="Version Control Systems">
+                <item>Mercurial</item>
+                <item>Perforce</item>
+                <item>Git</item>
+                <item>SourceSafe :(</item>
             </topic>
             <topic name="Tools">
                 <item>Visual Studio 2008/2010</item>
@@ -132,8 +132,11 @@
                             </p>
                             <header>Back-Ends:</header>
                             <p>
-                                Designed complex database schemas, wrote domain models, services, repositories (before LINQ days) using TDD/BDD (NUnit). Hand-wrote SQL for performance critical pieces.
-                                Implemented web services using WCF. Occasionally utilized UML and ER diagrams to communicate ideas to team members and other project stakeholders.
+                                Designed complex database schemas, wrote domain models, services, repositories (before LINQ days) using C#, .NET 3.5+, TDD/BDD (NUnit).
+                                Hand-wrote SQL (queries, views, stored procedures) for performance critical pieces. Implemented web services using WCF.
+                            </p>
+                            <p>
+                                Occasionally utilized UML and ER diagrams to communicate ideas to team members and other project stakeholders.
                             </p>
                         </area>
                           <area name="Infrastructure">
