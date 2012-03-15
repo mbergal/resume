@@ -2,14 +2,13 @@
 
     <xsl:output
             method="html"
-            doctype-public="html"
             indent="yes" />
 
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css"/>
-                <link rel="stylesheet" href="resume.css"/>
+                <link rel="stylesheet" type="text/css" href="src/resources/cssreset-min.css"/>
+                <link rel="stylesheet" type="text/css" href="src/resources/resume.css"/>
 
                 <title><xsl:value-of select="/resume/person/name"/>'s resume</title>
             </head>

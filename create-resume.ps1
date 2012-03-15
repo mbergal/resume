@@ -7,7 +7,22 @@ function ConvertSourceToHtml( $source, $destination )
     {
     $xslt = New-Object System.Xml.Xsl.XslCompiledTransform;
     $xslt.Load( ( Join-Path $rootDir "src\transformations\resume-to-html.xsl" ) );
-    $xslt.Transform( $source, $destination );    
+    $tempFile = [System.IO.Path]::GetTempFileName()
+    $xslt.Transform( $source, $tempFile );
+    Get-Content $tempFile | ForEach-Object { 
+        switch -regex ( $_ )
+            {
+            '\s*<link rel="stylesheet" type="text/css" href="(.*)" />' 
+                { 
+                $cssFile = $matches[1]
+                '<style type="text/css">'
+                Get-Content ( Join-Path $rootDir $cssFile )
+                '</style>'
+                break
+                }
+            default { $_ }
+            }
+        } | Out-File $destination
     }
     
 function ConvertSourceToWord( $source, $destination )
@@ -39,7 +54,7 @@ function ConvertSourceToPDF( $source, $destination )
     $doc.close()
     $wrd.quit()
     }
-    
+
 ConvertSourceToHtml $source ( Join-Path $rootDir "bin\Resume.html" )
-ConvertSourceToWord $source ( Join-Path $rootDir "bin\Resume.docx" )
-ConvertSourceToPDF $source ( Join-Path $rootDir "bin\Resume.pdf" )
+#ConvertSourceToWord $source ( Join-Path $rootDir "bin\Resume.docx" )
+#ConvertSourceToPDF $source ( Join-Path $rootDir "bin\Resume.pdf" )
