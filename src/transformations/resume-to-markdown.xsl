@@ -133,28 +133,62 @@ Misha Bergal's Resume
     </xsl:template>
     
 
+    <xsl:template match="open-source-work">
+        <xsl:call-template name="newline"/>
+        <xsl:text>### Open-Source Work</xsl:text>
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="education">
+        <xsl:call-template name="newline"/>
+        <xsl:text>### Education</xsl:text>
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="references">
+        <xsl:call-template name="newline"/>
+        <xsl:text>### References</xsl:text>
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+
     <xsl:template name="indent">
         <xsl:param name="indent"/>
         <xsl:value-of select="substring('                          ', 1, ( $indent - 1 )* 4 )"/>
     </xsl:template>
 
     <xsl:template match="important">
-**<xsl:apply-templates/>**
-</xsl:template>
+        <xsl:text>**</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>**</xsl:text>
+    </xsl:template>
     
-<xsl:template match="p">
-<xsl:text>
-</xsl:text>
-<xsl:apply-templates/>
-<xsl:text>
-</xsl:text>
-</xsl:template>
+    <xsl:template match="p">
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates/>
+        <xsl:call-template name="newline"/>
+    </xsl:template>
 
-<xsl:template match="text()">
-    <xsl:if test="normalize-space(.)">
-<xsl:value-of select="normalize-space(.)"/>
-    </xsl:if>
-</xsl:template>
+    <xsl:template match="a">
+        <xsl:text>[</xsl:text><xsl:value-of select="text()" /><xsl:text>]</xsl:text>
+        <xsl:text>(</xsl:text>
+        <xsl:value-of select="@href" />
+        <xsl:text>)</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="text()">
+        <xsl:if test="normalize-space(.)">
+            <xsl:if test="starts-with( ., ' ')">
+                <xsl:text> </xsl:text>
+            </xsl:if>
+            <xsl:value-of select="normalize-space(.)"/>
+            <xsl:if test="substring( ., (string-length(.) - string-length(' ')) + 1) = ' '">
+                <xsl:text> </xsl:text>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
 
 <xsl:template name="newline">
 <xsl:text>
