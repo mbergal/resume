@@ -1,8 +1,9 @@
-[Word Version Of This Document ](http://github.com/mbergal/resume/edit/master/bin/Resume.docx) 
-| [PDF Version Of This Document ](http://github.com/mbergal/resume/edit/master/bin/Resume.pdf) 
+﻿
+[Word Version Of This Document ](https://github.com/mbergal/resume/blob/master/bin/Resume.docx?raw=true)
+| [PDF Version Of This Document ](https://github.com/mbergal/resume/blob/master/bin/Resume.pdf?raw=true)
 
-Misha Bergal's Resume
-=====================
+Misha Bergal
+============
         
 1317 Dolen Place, Iowa City, IA 52246  
 319-936-8228  

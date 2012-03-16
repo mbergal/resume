@@ -2,9 +2,11 @@
     <xsl:output method="text"/>
 
     <xsl:template match="/">
+[Word Version Of This Document ](https://github.com/mbergal/resume/blob/master/bin/Resume.docx?raw=true)
+| [PDF Version Of This Document ](https://github.com/mbergal/resume/blob/master/bin/Resume.pdf?raw=true)
 
-Misha Bergal's Resume
-=====================
+Misha Bergal
+============
         <xsl:apply-templates/>
     </xsl:template>
 
