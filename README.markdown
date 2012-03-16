@@ -14,11 +14,8 @@ Significantly contribute to building of a product or experience, by participatin
 
 **I value working with smart, passionate and caring team more than compensation levels.**
 
-
 Skills
----------
-
-
+------
 * Programming Languages
 
     **C#**, **SQL**, **JavaScript**, **HTML**, **CSS + LessCSS**, **XML+XSLT**, **PowerShell 2.0**.
@@ -37,7 +34,6 @@ Skills
 
         **HTML**, **JavaScript**, **jQuery**, **CSS + LessCSS**, **Knockout.js**, **Jasmine**.
 
-
 * RDBMS
 
     **SQL Server 2005/2008**, **T-SQL**, **SQL Server Reporting Services**.
@@ -48,7 +44,11 @@ Skills
 
 * Tools
 
-    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **CruiseControl.NET**, **TeamCity**, **YouTrack**.1995presentSoftware EngineerMetaCommunications Inc., Iowa City, IADesigned and implemented common and client specific features forVirtual Ticket- company's main product.
+    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **CruiseControl.NET**, **TeamCity**, **YouTrack**.
+
+Employment
+----------
+1995presentSoftware EngineerMetaCommunications Inc., Iowa City, IADesigned and implemented common and client specific features forVirtual Ticket- company's main product.
 Communicated with customers and designed product or client-specific features based on customer requirements.
 
 Wrote front-ends and back-ends in JavaScript, using proprietary and well-known components (thousands LOC of JavaScript). Used Jasmine to test complex or important client-side and server-side components.
@@ -70,4 +70,4 @@ Wrote or set up major infrastructure pieces - build system (MSBuild, psake, cust
 Performed manual, semi-manual & automated testing as was needed.
 
 My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries (http://www.boost.org/development/tests/release/developer/summary.html).
-B.S. in Computer Science, Saint Petersburg Technical University.Bob LongPresidentMetaCommunicationsblong@meta-comm.com319-3378599Chris SuttonSenior Software EngineerCenter for Public Health Statistics, University of Iowabdsutton@gmail.com319-6219093Ilya BuchkinSenior Software EngineerMetaCommunicationsibuchkin@meta-comm.com319-3378599 ext. 191
+B.S. in Computer Science, Saint Petersburg Technical University.Bob LongPresidentMetaCommunicationsblong@meta-comm.com319-3378599Chris SuttonSenior Software EngineerCenter for Public Health Statistics, University of Iowabdsutton@gmail.com319-3844297Ilya BuchkinSenior Software EngineerMetaCommunicationsibuchkin@meta-comm.com319-3378599 ext. 191
