@@ -40,24 +40,41 @@ Skills
     </xsl:template>
 
     <xsl:template match="topics">
-        <xsl:apply-templates/>
+        <xsl:param name="level" select="1"/>
+        <xsl:apply-templates>
+            <xsl:with-param name="level" select="$level"/>
+        </xsl:apply-templates>
     </xsl:template>
 
     <xsl:template match="topic">
         <xsl:param name="level" select="1"/>
+        <xsl:call-template name="newline"/>
+        <xsl:call-template name="newline"/>
+        <xsl:message><xsl:value-of select="$level"></xsl:value-of></xsl:message>
+        <xsl:call-template name="indent">
+            <xsl:with-param name="indent" select="$level"/>
+        </xsl:call-template>
         <xsl:call-template name="output-text">
             <xsl:with-param name="value">* </xsl:with-param>
         </xsl:call-template>
         <xsl:value-of select="@name"/>
-        <xsl:apply-templates select="*[local-name(.) != 'item']"/>
+        <xsl:apply-templates select="*[local-name(.) != 'item']">
+            <xsl:with-param name="level" select="$level + 1 "/>
+        </xsl:apply-templates>
+        <xsl:call-template name="newline"/>
         <xsl:if test="count(item) > 0">
             <xsl:call-template name="newline"/>
-            <xsl:call-template name="newline"/>
-            <xsl:call-template name="output-text">
-                <xsl:with-param name="value">**</xsl:with-param>
+            <xsl:call-template name="indent">
+                <xsl:with-param name="indent" select="$level + 1"/>
             </xsl:call-template>
             <xsl:for-each select="item">
+                <xsl:call-template name="output-text">
+                    <xsl:with-param name="value">**</xsl:with-param>
+                </xsl:call-template>
                 <xsl:value-of select="."/>
+                <xsl:call-template name="output-text">
+                    <xsl:with-param name="value">**</xsl:with-param>
+                </xsl:call-template>
                 <xsl:choose>
                     <xsl:when test="position() = last()">
                         <xsl:text>.</xsl:text>
@@ -67,15 +84,15 @@ Skills
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each>
-            <xsl:call-template name="output-text">
-                <xsl:with-param name="value">**</xsl:with-param>
-            </xsl:call-template>
-            <xsl:call-template name="newline"/>
-            <xsl:call-template name="newline"/>
         </xsl:if>
     </xsl:template>
+    
+    <xsl:template name="indent">
+        <xsl:param name="indent"/>
+        <xsl:value-of select="substring('                          ', 1, ( $indent - 1 )* 4 )"/>
+    </xsl:template>
 
-<xsl:template match="important">
+    <xsl:template match="important">
 **<xsl:apply-templates/>**
 </xsl:template>
     

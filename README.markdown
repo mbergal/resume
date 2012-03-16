@@ -17,35 +17,38 @@ Significantly contribute to building of a product or experience, by participatin
 
 Skills
 ---------
+
+
 * Programming Languages
 
-**C#, SQL, JavaScript, HTML, CSS + LessCSS, XML+XSLT, PowerShell 2.0.**
+    **C#**, **SQL**, **JavaScript**, **HTML**, **CSS + LessCSS**, **XML+XSLT**, **PowerShell 2.0**.
 
 * Concepts
 
-**OOP, SOLID, RDBMS, ORM, TDD, BDD.**
+    **OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **BDD**.
 
-* Frameworks and Technologies* .NET
+* Frameworks and Technologies
 
-**Castle, NHibernate, ADO.NET, ASP.NET MVC and WebForms, Silverlight, WCF, LINQ, TPL, NUnit.**
+    * .NET
 
-* Web
+        **Castle**, **NHibernate**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**.
 
-**HTML, JavaScript, jQuery, CSS + LessCSS, Knockout.js, Jasmine.**
+    * Web
+
+        **HTML**, **JavaScript**, **jQuery**, **CSS + LessCSS**, **Knockout.js**, **Jasmine**.
+
 
 * RDBMS
 
-**SQL Server 2005/2008, T-SQL, SQL Server Reporting Services.**
+    **SQL Server 2005/2008**, **T-SQL**, **SQL Server Reporting Services**.
 
 * Version Control Systems
 
-**Mercurial, Perforce, Git, SourceSafe :(.**
+    **Mercurial**, **Perforce**, **Git**, **SourceSafe :(**.
 
 * Tools
 
-**Visual Studio 2008/2010, Resharper, Reflector, CruiseControl.NET, TeamCity, YouTrack.**
-
-1995presentSoftware EngineerMetaCommunications Inc., Iowa City, IADesigned and implemented common and client specific features forVirtual Ticket- company's main product.
+    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **CruiseControl.NET**, **TeamCity**, **YouTrack**.1995presentSoftware EngineerMetaCommunications Inc., Iowa City, IADesigned and implemented common and client specific features forVirtual Ticket- company's main product.
 Communicated with customers and designed product or client-specific features based on customer requirements.
 
 Wrote front-ends and back-ends in JavaScript, using proprietary and well-known components (thousands LOC of JavaScript). Used Jasmine to test complex or important client-side and server-side components.
