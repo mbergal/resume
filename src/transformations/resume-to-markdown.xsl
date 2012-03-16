@@ -131,7 +131,13 @@ Misha Bergal's Resume
         <xsl:call-template name="newline"/>
         <xsl:apply-templates/>
     </xsl:template>
-    
+
+    <xsl:template match="header">
+        <xsl:call-template name="newline"/>
+        <xsl:text>#####</xsl:text><xsl:value-of select="text()"/>
+        <xsl:call-template name="newline"/>
+    </xsl:template>
+
 
     <xsl:template match="open-source-work">
         <xsl:call-template name="newline"/>
@@ -152,6 +158,20 @@ Misha Bergal's Resume
         <xsl:text>### References</xsl:text>
         <xsl:call-template name="newline"/>
         <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="reference">
+        <xsl:call-template name="newline"/>
+        <xsl:value-of select="name"/><xsl:text>  </xsl:text><xsl:call-template name="newline"/>
+        <xsl:value-of select="company"/><xsl:text>  </xsl:text><xsl:call-template name="newline"/>
+        <xsl:value-of select="email"/><xsl:text>  </xsl:text><xsl:call-template name="newline"/>
+        <xsl:value-of select="phone"/><xsl:text>  </xsl:text><xsl:call-template name="newline"/>
+    </xsl:template>
+
+    <xsl:template match="history">
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates/>
+        <xsl:call-template name="newline"/>
     </xsl:template>
 
     <xsl:template name="indent">

@@ -72,9 +72,13 @@ Led teams of 3-5 people. Made sure that they fulfill company expectation and com
 ####Implementation
 
 All aspects of implementation - designed layered API's, database schemas, implemented features (front-end and back-end) using TDD/BDD, wrote reports and database upgrade scripts. Implemented necessary read path SQL queries, write path SQL batch operations and optimized them (or database schema) for better performance. 
-Front-Ends
+
+#####Front-Ends
+
 Developed Ajax and plain front-ends using such JavaScript libraries as jQuery, Knockout.js and underscore.js, testing critical or complicated user interactions using Jasmine. Developed HTML and CSS based on UI specs. Created reusable controls (WebForms) or helpers (MVC/Razor) for common view functionality. Developed SQL Server Reporting Services reports. 
-Back-Ends:
+
+#####Back-Ends:
+
 Designed complex database schemas, wrote domain models, services, repositories (before LINQ days) using C#, .NET 3.5+, TDD/BDD (NUnit). Hand-wrote SQL (queries, views, stored procedures) for performance critical pieces. Implemented web services using WCF. 
 
 Occasionally utilized UML and ER diagrams to communicate ideas to team members and other project stakeholders. 
@@ -92,6 +96,22 @@ Performed manual, semi-manual & automated testing as was needed.
 My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/release/developer/summary.html)). 
 
 ### Education
+
 B.S. in Computer Science, Saint Petersburg Technical University.
+
 ### References
-Bob LongPresidentMetaCommunicationsblong@meta-comm.com319-3378599Chris SuttonSenior Software EngineerCenter for Public Health Statistics, University of Iowabdsutton@gmail.com319-3844297Ilya BuchkinSenior Software EngineerMetaCommunicationsibuchkin@meta-comm.com319-3378599 ext. 191
+
+Bob Long  
+MetaCommunications  
+blong@meta-comm.com  
+319-3378599  
+
+Chris Sutton  
+Center for Public Health Statistics, University of Iowa  
+bdsutton@gmail.com  
+319-3844297  
+
+Ilya Buchkin  
+MetaCommunications  
+ibuchkin@meta-comm.com  
+319-3378599 ext. 191  
