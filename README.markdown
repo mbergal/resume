@@ -48,14 +48,30 @@ Skills
 
 Employment
 ----------
-1995presentSoftware EngineerMetaCommunications Inc., Iowa City, IADesigned and implemented common and client specific features forVirtual Ticket- company's main product.
-Communicated with customers and designed product or client-specific features based on customer requirements.
+1995 - present, Software Engineer, 
+MetaCommunications Inc., Iowa City, IA
+
+   ###Designed and implemented common and client specific features forVirtual Ticket- company's main product.
+
+      ####Product Design
+
+          Communicated with customers and designed product or client-specific features based on customer requirements.
+
+      ####Implementation
 
 Wrote front-ends and back-ends in JavaScript, using proprietary and well-known components (thousands LOC of JavaScript). Used Jasmine to test complex or important client-side and server-side components.
-Led design and development of company's web product line, in particularApproval Manager- a web based proofing tool
+
+###Led design and development of company's web product line, in particularApproval Manager- a web based proofing tool
+
+####Product Design
+
 Defined product roadmaps, product features, did UX design including wireframe prototypes and full UI and functional specs, managed multi-product releases.
 
+####Management
+
 Led teams of 3-5 people. Made sure that they fulfill company expectation and company fulfills theirs. Provided technical and non-technical leadership, gave seminars, trainings, led code reviews.
+
+####Implementation
 
 All aspects of implementation - designed layered API's, database schemas, implemented features (front-end and back-end) using TDD/BDD, wrote reports and database upgrade scripts. Implemented necessary read path SQL queries, write path SQL batch operations and optimized them (or database schema) for better performance.
 Front-Ends
@@ -65,7 +81,11 @@ Designed complex database schemas, wrote domain models, services, repositories (
 
 Occasionally utilized UML and ER diagrams to communicate ideas to team members and other project stakeholders.
 
+####Infrastructure
+
 Wrote or set up major infrastructure pieces - build system (MSBuild, psake, custom build system), CI servers (CCNet,TeamCity).
+
+####Testing
 
 Performed manual, semi-manual & automated testing as was needed.
 

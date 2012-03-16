@@ -106,6 +106,33 @@ Misha Bergal's Resume
         <xsl:apply-templates/>
     </xsl:template>
 
+    <xsl:template match="position">
+        <xsl:value-of select="from"/><xsl:text> - </xsl:text><xsl:value-of select="to"/><xsl:text>, </xsl:text>
+        <xsl:value-of select="title"/><xsl:text>, </xsl:text>
+        <xsl:call-template name="newline"/>
+        <xsl:value-of select="company"/>
+        <xsl:call-template name="newline"/>
+
+        <xsl:apply-templates select="details"/>
+    </xsl:template>
+
+
+    <xsl:template match="role">
+        <xsl:call-template name="newline"/>
+        <xsl:text>###</xsl:text><xsl:apply-templates select="description"/>
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates select="areas"/>
+    </xsl:template>
+    
+    
+    <xsl:template match="area">
+        <xsl:call-template name="newline"/>
+        <xsl:text>####</xsl:text><xsl:value-of select="@name"/>
+        <xsl:call-template name="newline"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+
     <xsl:template name="indent">
         <xsl:param name="indent"/>
         <xsl:value-of select="substring('                          ', 1, ( $indent - 1 )* 4 )"/>
