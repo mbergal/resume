@@ -1,4 +1,5 @@
-﻿
+[Word Version Of This Document ](http://github.com/mbergal/resume/edit/master/bin/Resume.docx) 
+| [PDF Version Of This Document ](http://github.com/mbergal/resume/edit/master/bin/Resume.pdf) 
 
 Misha Bergal's Resume
 =====================
