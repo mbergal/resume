@@ -28,7 +28,7 @@ Skills
 
     * .NET
 
-        **Castle**, **NHibernate**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**.
+        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**.
 
     * Web
 
@@ -44,7 +44,7 @@ Skills
 
 * Tools
 
-    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **CruiseControl.NET**, **TeamCity**, **YouTrack**.
+    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **Web Storm, PyCharm, RubyMine**, **Eclipse, Eclipse+Pydev**, **CruiseControl.NET**, **TeamCity**, **YouTrack**.
 
 Employment
 ----------

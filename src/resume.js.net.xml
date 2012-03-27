@@ -33,6 +33,7 @@
             <topic name="Frameworks and Technologies">
                 <topics>
                     <topic name=".NET">
+                        <item>.NET 1.1-4.0</item>
                         <item>Castle</item>
                         <item>NHibernate</item>
                         <item>ADO.NET</item>
@@ -68,6 +69,8 @@
                 <item>Visual Studio 2008/2010</item>
                 <item>Resharper</item>
                 <item>Reflector</item>
+                <item>Web Storm, PyCharm, RubyMine</item>
+                <item>Eclipse, Eclipse+Pydev</item>
                 <item>CruiseControl.NET</item>
                 <item>TeamCity</item>
                 <item>YouTrack</item>
