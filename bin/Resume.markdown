@@ -32,7 +32,7 @@ Skills
 
     * Web
 
-        **HTML**, **JavaScript**, **jQuery**, **CSS + LessCSS**, **Knockout.js**, **Jasmine**.
+        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + LessCSS**, **Knockout.js**, **Jasmine**.
 
 * RDBMS
 
@@ -44,11 +44,37 @@ Skills
 
 * Tools
 
-    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **Web Storm, PyCharm, RubyMine**, **Eclipse, Eclipse+Pydev**, **CruiseControl.NET**, **TeamCity**, **YouTrack**.
+    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **Web Storm, PyCharm, RubyMine**, **Eclipse, Eclipse+Pydev**, **CruiseControl.NET**, **TeamCity**, **YouTrack**, **Zabbix**.
 
 Employment
 ----------
-1995 - present, Software Engineer, 
+2012 - present, Application Developer, 
+University of Iowa, Iowa City, IA
+
+###Maintained and developed new Web based solutions for different University of Iowa departments.
+
+####Design and Planning
+
+Interviewed customers, wrote initial specs, made UI wireframes and project estimates
+
+####Implementation
+
+Implemented front-ends using HTML, LESS (DotLess) and JavaScript
+
+Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-Style unit and integration tests.
+
+Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).
+
+Made efforts to introduce policies regarding code sharing and continuous integration/deployment.
+
+####Education and training
+
+Made presentations and organized seminars to teach colleagues about modern tools and methods. Set up student and staff code reviews, actively provided feedback and challenges for students working for department
+
+####Operations and Developer Infrastructure
+
+Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell)
+1995 - 2012, Software Engineer, 
 MetaCommunications Inc., Iowa City, IA
 
 ###Designed and implemented common and client specific features for [Virtual Ticket](http://www.metacommunications.com/products/virtual_ticket) - company's main product.
@@ -96,6 +122,8 @@ Performed manual, semi-manual & automated testing as was needed.
 ### Open-Source Work
 
 My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/release/developer/summary.html)). 
+
+I am currently working on Jester - RSpec style testing framework for Powershell. 
 
 ### Education
 
