@@ -19,7 +19,7 @@
                 <item>JavaScript</item>
                 <item>HTML</item>
                 <item>CSS + LessCSS</item>
-                <item>XML+XSLT</item>
+                <item>XML+XSLT 1.0</item>
                 <item>PowerShell 2.0</item>
             </topic>
             <topic name="Concepts">
@@ -33,6 +33,7 @@
             <topic name="Frameworks and Technologies">
                 <topics>
                     <topic name=".NET">
+                        <item>.NET 1.1-4.0</item>
                         <item>Castle</item>
                         <item>NHibernate</item>
                         <item>ADO.NET</item>
@@ -69,6 +70,8 @@
                 <item>Visual Studio 2008/2010</item>
                 <item>Resharper</item>
                 <item>Reflector</item>
+                <item>Web Storm, PyCharm, RubyMine</item>
+                <item>Eclipse, Eclipse+Pydev</item>
                 <item>CruiseControl.NET</item>
                 <item>TeamCity</item>
                 <item>YouTrack</item>
@@ -212,7 +215,7 @@
         <title>Senior Software Engineer</title>
         <company>Center for Public Health Statistics, University of Iowa</company>
         <email>bdsutton@gmail.com</email>
-        <phone>319-6219093</phone>
+        <phone>319-3844297</phone>
       </reference>
       <reference>
         <name>Ilya Buchkin</name>
