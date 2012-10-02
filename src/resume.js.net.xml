@@ -47,6 +47,7 @@
                         <item>HTML</item>
                         <item>JavaScript</item>
                         <item>jQuery</item>
+                        <item>Bootstrap</item>
                         <item>CSS + LessCSS</item>
                         <item>Knockout.js</item>
                         <item>Jasmine</item>
@@ -71,13 +72,43 @@
                 <item>CruiseControl.NET</item>
                 <item>TeamCity</item>
                 <item>YouTrack</item>
+                <item>Zabbix</item>
             </topic>
         </topics>
     </skills>
     <employment>
         <position>
-            <from>1995</from>
+            <from>2012</from>
             <to>present</to>
+            <title>Application Developer</title>
+            <company>University of Iowa, Iowa City, IA</company>
+            <details>
+                <role>
+                    <description>Maintained and developed new Web based solutions for different University of Iowa departments.</description>
+                    <areas>
+                        <area name="Design and Planning">
+                            <p>Interviewed customers, wrote initial specs, made UI wireframes and project estimates</p>
+                        </area>
+                        <area name="Implementation">
+                            <p>Implemented front-ends using HTML, LESS (DotLess) and JavaScript</p>
+                            <p>Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-Style unit and integration tests.</p>
+                            <p>Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).</p>
+                            <p>Made efforts to introduce policies regarding code sharing and continuous integration/deployment.</p>
+                        </area>
+                        <area name="Education and training">
+                            <p>Made presentations and organized seminars to teach colleagues about modern tools and methods. Set up student and staff code reviews, actively provided feedback and challenges
+                                for students working for department</p>
+                        </area>
+                        <area name="Operations and Developer Infrastructure">
+                            <p>Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell)</p>
+                        </area>
+                    </areas>
+                </role>
+            </details>
+        </position>
+        <position>
+            <from>1995</from>
+            <to>2012</to>
             <title>Software Engineer</title>
             <company>MetaCommunications Inc., Iowa City, IA</company>
             <details>
@@ -160,6 +191,9 @@
         and
         displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source
         libraries (<a href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
+      </p>
+      <p>
+         I am currently working on Jester - RSpec style testing framework for Powershell.
       </p>
     </open-source-work>
     <education>
