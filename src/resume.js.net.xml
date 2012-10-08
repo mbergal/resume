@@ -90,7 +90,7 @@
                     <description>Maintained and developed new Web based solutions for different University of Iowa departments.</description>
                     <areas>
                         <area name="Design and Planning">
-                            <p>Interviewed customers, wrote initial specs, made UI wireframes and project estimates</p>
+                            <p>Interviewed customers, wrote initial specs, made UI wireframes and project estimates.</p>
                         </area>
                         <area name="Implementation">
                             <p>Implemented front-ends using HTML, LESS (DotLess) and JavaScript</p>
@@ -100,10 +100,10 @@
                         </area>
                         <area name="Education and training">
                             <p>Made presentations and organized seminars to teach colleagues about modern tools and methods. Set up student and staff code reviews, actively provided feedback and challenges
-                                for students working for department</p>
+                                for students working for department.</p>
                         </area>
                         <area name="Operations and Developer Infrastructure">
-                            <p>Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell)</p>
+                            <p>Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell).</p>
                         </area>
                     </areas>
                 </role>
@@ -196,7 +196,7 @@
         libraries (<a href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
       </p>
       <p>
-         I am currently working on Jester - RSpec style testing framework for Powershell.
+         I am currently working on Jester - RSpec style testing framework for PowerShell.
       </p>
     </open-source-work>
     <education>

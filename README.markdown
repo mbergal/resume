@@ -55,7 +55,7 @@ University of Iowa, Iowa City, IA
 
 ####Design and Planning
 
-Interviewed customers, wrote initial specs, made UI wireframes and project estimates
+Interviewed customers, wrote initial specs, made UI wireframes and project estimates.
 
 ####Implementation
 
@@ -69,11 +69,11 @@ Made efforts to introduce policies regarding code sharing and continuous integra
 
 ####Education and training
 
-Made presentations and organized seminars to teach colleagues about modern tools and methods. Set up student and staff code reviews, actively provided feedback and challenges for students working for department
+Made presentations and organized seminars to teach colleagues about modern tools and methods. Set up student and staff code reviews, actively provided feedback and challenges for students working for department.
 
 ####Operations and Developer Infrastructure
 
-Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell)
+Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell).
 1995 - 2012, Software Engineer, 
 MetaCommunications Inc., Iowa City, IA
 
@@ -123,7 +123,7 @@ Performed manual, semi-manual & automated testing as was needed.
 
 My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/release/developer/summary.html)). 
 
-I am currently working on Jester - RSpec style testing framework for Powershell. 
+I am currently working on Jester - RSpec style testing framework for PowerShell. 
 
 ### Education
 
