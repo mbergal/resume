@@ -123,7 +123,7 @@ Performed manual, semi-manual & automated testing as was needed.
 
 My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/release/developer/summary.html)). 
 
-I am currently working on Jester - RSpec style testing framework for PowerShell. 
+I am currently working on Jester([https://github.com/mbergal/Jester](https://github.com/mbergal/Jester)) - RSpec style testing framework for PowerShell. 
 
 ### Education
 
