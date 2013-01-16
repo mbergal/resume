@@ -74,6 +74,7 @@ Made presentations and organized seminars to teach colleagues about modern tools
 ####Operations and Developer Infrastructure
 
 Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell).
+
 1995 - 2012, Software Engineer, 
 MetaCommunications Inc., Iowa City, IA
 
