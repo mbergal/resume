@@ -55,7 +55,9 @@ University of Iowa, Iowa City, IA
 
 ####Design and Planning
 
-Interviewed customers, wrote initial specs, made UI wireframes and project estimates.
+Interviewed customers, understood their problems and proposed effective solutions.
+
+Wrote initial specs, made UI wireframes and project estimates.
 
 ####Implementation
 
@@ -66,6 +68,10 @@ Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. 
 Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).
 
 Made efforts to introduce policies regarding code sharing and continuous integration/deployment.
+
+####Operations and support
+
+Implemented automatic error detection and notification system, so operations team is aware of problems before customers or customer customers call in with complaints
 
 ####Education and training
 
