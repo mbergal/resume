@@ -39,7 +39,7 @@ function ConvertSourceToWord( $source, $destination )
     $wrd.visible = $true 
     $doc = $wrd.documents.open( $tempFile )
     $format = 16
-    $doc.SaveAs( [ref] $destination, [ref] 16 )
+    $doc.SaveAs( [ref][system.object]$destination, [ref] 16 )
     $doc.close()
     $wrd.quit()
     }
@@ -55,7 +55,7 @@ function ConvertSourceToPDF( $source, $destination )
     $wrd.visible = $true 
     $doc = $wrd.documents.open( $tempFile )
     $format = 17
-    $doc.SaveAs( [ref]$destination, [ref]$format )
+    $doc.SaveAs( [ref][system.object]$destination, [ref]$format )
     $doc.close()
     $wrd.quit()
     }
