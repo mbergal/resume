@@ -18,7 +18,7 @@
                 <item>SQL</item>
                 <item>JavaScript</item>
                 <item>HTML</item>
-                <item>CSS + LessCSS</item>
+                <item>CSS + Less</item>
                 <item>XML+XSLT 1.0</item>
                 <item>PowerShell 2.0</item>
             </topic>
@@ -49,21 +49,21 @@
                         <item>JavaScript</item>
                         <item>jQuery</item>
                         <item>Bootstrap</item>
-                        <item>CSS + LessCSS</item>
+                        <item>CSS + Less</item>
                         <item>Knockout.js</item>
                         <item>Jasmine</item>
                     </topic>
                 </topics>
             </topic>
             <topic name="RDBMS">
-                <item>SQL Server 2005/2008</item>
+                <item>SQL Server 2005/2008/R2</item>
                 <item>T-SQL</item>
                 <item>SQL Server Reporting Services</item>
             </topic>
             <topic name="Version Control Systems">
                 <item>Mercurial</item>
-                <item>Perforce</item>
                 <item>Git</item>
+                <item>Perforce</item>
                 <item>SourceSafe :(</item>
             </topic>
             <topic name="Tools">
@@ -94,7 +94,7 @@
                         </area>
                         <area name="Implementation">
                             <p>Implemented front-ends using HTML, LESS (DotLess) and JavaScript</p>
-                            <p>Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-Style unit and integration tests.</p>
+                            <p>Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-style unit and integration tests.</p>
                             <p>Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).</p>
                             <p>Made efforts to introduce policies regarding code sharing and continuous integration/deployment.</p>
                         </area>
@@ -191,8 +191,7 @@
     <open-source-work>
       <p>
         My only widely used public project is a part of Boost testing framework responsible for running, collecting
-        and
-        displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source
+        and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source
         libraries (<a href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
       </p>
       <p>
@@ -215,14 +214,12 @@
         <title>Senior Software Engineer</title>
         <company>Center for Public Health Statistics, University of Iowa</company>
         <email>bdsutton@gmail.com</email>
-        <phone>319-3844297</phone>
       </reference>
       <reference>
-        <name>Ilya Buchkin</name>
+        <name>Valerij Petrulevich</name>
         <title>Senior Software Engineer</title>
-        <company>MetaCommunications</company>
-        <email>ibuchkin@meta-comm.com</email>
-        <phone>319-3378599 ext. 191</phone>
+        <company>University of Iowa Hospital and Clinics</company>
+        <email>vpetrulevich@uiowa.edu</email>
       </reference>
     </references>
 </resume>

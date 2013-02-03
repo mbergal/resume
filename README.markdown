@@ -18,7 +18,7 @@ Skills
 ------
 * Programming Languages
 
-    **C#**, **SQL**, **JavaScript**, **HTML**, **CSS + LessCSS**, **XML+XSLT 1.0**, **PowerShell 2.0**.
+    **C#**, **SQL**, **JavaScript**, **HTML**, **CSS + Less**, **XML+XSLT 1.0**, **PowerShell 2.0**.
 
 * Concepts
 
@@ -32,15 +32,15 @@ Skills
 
     * Web
 
-        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + LessCSS**, **Knockout.js**, **Jasmine**.
+        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **Jasmine**.
 
 * RDBMS
 
-    **SQL Server 2005/2008**, **T-SQL**, **SQL Server Reporting Services**.
+    **SQL Server 2005/2008/R2**, **T-SQL**, **SQL Server Reporting Services**.
 
 * Version Control Systems
 
-    **Mercurial**, **Perforce**, **Git**, **SourceSafe :(**.
+    **Mercurial**, **Git**, **Perforce**, **SourceSafe :(**.
 
 * Tools
 
@@ -61,7 +61,7 @@ Interviewed customers, wrote initial specs, made UI wireframes and project estim
 
 Implemented front-ends using HTML, LESS (DotLess) and JavaScript
 
-Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-Style unit and integration tests.
+Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-style unit and integration tests.
 
 Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).
 
@@ -74,7 +74,6 @@ Made presentations and organized seminars to teach colleagues about modern tools
 ####Operations and Developer Infrastructure
 
 Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell).
-
 1995 - 2012, Software Engineer, 
 MetaCommunications Inc., Iowa City, IA
 
@@ -140,9 +139,9 @@ blong@meta-comm.com
 Chris Sutton  
 Center for Public Health Statistics, University of Iowa  
 bdsutton@gmail.com  
-319-3844297  
+  
 
-Ilya Buchkin  
-MetaCommunications  
-ibuchkin@meta-comm.com  
-319-3378599 ext. 191  
+Valerij Petrulevich  
+University of Iowa Hospital and Clinics  
+vpetrulevich@uiowa.edu  
+  
