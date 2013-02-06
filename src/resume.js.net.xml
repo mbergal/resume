@@ -23,7 +23,7 @@
                 <item>PowerShell 2.0</item>
             </topic>
             <topic name="Concepts">
-                <item>OOP</item>
+                <item>OOD/OOP</item>
                 <item>SOLID</item>
                 <item>RDBMS</item>
                 <item>ORM</item>
@@ -36,6 +36,7 @@
                         <item>.NET 1.1-4.0</item>
                         <item>Castle</item>
                         <item>NHibernate</item>
+                        <item>Entity Framework Model and Code First</item>
                         <item>ADO.NET</item>
                         <item>ASP.NET MVC and WebForms</item>
                         <item>Silverlight</item>
@@ -43,6 +44,7 @@
                         <item>LINQ</item>
                         <item>TPL</item>
                         <item>NUnit</item>
+                        <item>Moq</item>
                     </topic>
                     <topic name="Web">
                         <item>HTML</item>
@@ -51,6 +53,7 @@
                         <item>Bootstrap</item>
                         <item>CSS + Less</item>
                         <item>Knockout.js</item>
+                        <item>JSON/JSONP</item>
                         <item>Jasmine</item>
                     </topic>
                 </topics>
@@ -94,9 +97,15 @@
                             <p>Wrote initial specs, made UI wireframes and project estimates.</p>
                         </area>
                         <area name="Implementation">
-                            <p>Implemented front-ends using HTML, LESS (DotLess) and JavaScript</p>
-                            <p>Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-style unit and integration tests.</p>
+                            <p>Implemented front-ends using HTML, LESS (DotLess) and JavaScript. Used Telerik ASP.NET AJAX UI Controls for legacy WebForms apps, rich Knockout-based JavaScript clients generated with Razor for ASP.NET MVC apps.</p>                            
+
+                            <p>Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-style unit and integration tests. Most of the projects had 
+                            rich domain models, commands, queries and domain services with unit of work used for transaction/persistence. Systems were decomposed using SOLID principles and composed with inversion of control container (Castle Windsor).</p>
+
+                            <p>Wrote a fair share of complex SQL queries and reports against SQL Server.</p>
+
                             <p>Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).</p>
+
                             <p>Made efforts to introduce policies regarding code sharing and continuous integration/deployment.</p>
                         </area>
                         <area name="Operations and support">

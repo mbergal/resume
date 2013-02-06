@@ -22,17 +22,17 @@ Skills
 
 * Concepts
 
-    **OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **BDD**.
+    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **BDD**.
 
 * Frameworks and Technologies
 
     * .NET
 
-        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**.
+        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**, **Moq**.
 
     * Web
 
-        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **Jasmine**.
+        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **JSON/JSONP**, **Jasmine**.
 
 * RDBMS
 
@@ -61,9 +61,11 @@ Wrote initial specs, made UI wireframes and project estimates.
 
 ####Implementation
 
-Implemented front-ends using HTML, LESS (DotLess) and JavaScript
+Implemented front-ends using HTML, LESS (DotLess) and JavaScript. Used Telerik ASP.NET AJAX UI Controls for legacy WebForms apps, rich Knockout-based JavaScript clients generated with Razor for ASP.NET MVC apps.
 
-Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-style unit and integration tests.
+Implemented back-ends using C#, LINQ for SQL, EF 4.0 SQL Server and PowerShell. Used TDD and NUnit for writing BDD-style unit and integration tests. Most of the projects had rich domain models, commands, queries and domain services with unit of work used for transaction/persistence. Systems were decomposed using SOLID principles and composed with inversion of control container (Castle Windsor).
+
+Wrote a fair share of complex SQL queries and reports against SQL Server.
 
 Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end).
 
