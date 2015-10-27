@@ -27,7 +27,7 @@ Skills
 
 * Concepts
 
-    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, ***DD**
+    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **Tactical DDD**
 
 * Frameworks and Technologies
 
@@ -85,6 +85,8 @@ Made presentations and organized seminars to teach colleagues about modern tools
 ####Operations and Developer Infrastructure
 
 Installed and maintained TeamCity and Rhodecode installations, wrote pieces of build and continuous deployment system (MSBuild + PowerShell).
+
+
 1995 - 2012, Software Engineer, 
 MetaCommunications Inc., Iowa City, IA
 
@@ -129,12 +131,6 @@ Wrote or set up major infrastructure pieces - build system (MSBuild, psake, cust
 ####Testing
 
 Performed manual, semi-manual & automated testing as was needed. 
-
-### Open-Source Work
-
-My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/release/developer/summary.html)). 
-
-I am currently working on Jester([https://github.com/mbergal/Jester](https://github.com/mbergal/Jester)) - RSpec style testing framework for PowerShell. 
 
 ### Education
 
