@@ -18,33 +18,36 @@ Skills
 ------
 * Programming Languages
 
-    **C#**, **SQL**, **JavaScript**, **HTML**, **CSS + Less**, **XML+XSLT 1.0**, **PowerShell 2.0**.
+    **C#**, **F#**
+    **SQL** (T-SQL,PL/SQL), 
+    **JavaScript**, **TypeScript** 
+    **HTML**, **CSS + Less**, 
+    **XML+XSLT 1.0**, 
+    **PowerShell 4.0**.
 
 * Concepts
 
-    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **BDD**.
+    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, ***DD**
 
 * Frameworks and Technologies
 
     * .NET
 
-        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**, **Moq**.
+        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC **, **WCF**, **LINQ**, **NUnit**, **Moq**.
 
     * Web
 
-        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **JSON/JSONP**, **Jasmine**.
+        **HTML**, **JavaScript**, **TypeScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **Angular**, **JSON/JSONP**, **Jasmine**.
 
 * RDBMS
 
     **SQL Server 2005/2008/R2**, **T-SQL**, **SQL Server Reporting Services**.
+    **Oracle 11g**, **PL-SQL**
 
 * Version Control Systems
 
-    **Mercurial**, **Git**, **Perforce**, **SourceSafe :(**.
+    **Mercurial**, **Git**, **Perforce**
 
-* Tools
-
-    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **Web Storm, PyCharm, RubyMine**, **Eclipse, Eclipse+Pydev**, **CruiseControl.NET**, **TeamCity**, **YouTrack**, **Zabbix**.
 
 Employment
 ----------
