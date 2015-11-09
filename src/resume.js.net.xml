@@ -15,12 +15,15 @@
         <topics>
             <topic name="Programming Languages">
                 <item>C#</item>
+                <item>F#</item>
+                <item>Python</item>
+                <item>ColdFusion :(</item>
                 <item>SQL</item>
                 <item>JavaScript</item>
                 <item>HTML</item>
                 <item>CSS + Less</item>
                 <item>XML+XSLT 1.0</item>
-                <item>PowerShell 2.0</item>
+                <item>PowerShell 4.0</item>
             </topic>
             <topic name="Concepts">
                 <item>OOD/OOP</item>
@@ -28,18 +31,18 @@
                 <item>RDBMS</item>
                 <item>ORM</item>
                 <item>TDD</item>
-                <item>BDD</item>
+                <item>Tactical DDD</item>
             </topic>
             <topic name="Frameworks and Technologies">
                 <topics>
                     <topic name=".NET">
-                        <item>.NET 1.1-4.0</item>
+                        <item>.NET 1.1-4.5</item>
                         <item>Castle</item>
                         <item>NHibernate</item>
                         <item>Entity Framework Model and Code First</item>
                         <item>ADO.NET</item>
                         <item>ASP.NET MVC and WebForms</item>
-                        <item>Silverlight</item>
+                        <item>ASP.NET WebApi 2.0</item>
                         <item>WCF</item>
                         <item>LINQ</item>
                         <item>TPL</item>
@@ -53,30 +56,29 @@
                         <item>Bootstrap</item>
                         <item>CSS + Less</item>
                         <item>Knockout.js</item>
+                        <item>Angular</item>
                         <item>JSON/JSONP</item>
                         <item>Jasmine</item>
                     </topic>
                 </topics>
             </topic>
             <topic name="RDBMS">
-                <item>SQL Server 2005/2008/R2</item>
-                <item>T-SQL</item>
+                <item>SQL Server 2005/2008/2012</item>
+                <item>Oracle 11g</item>
+                <item>T-SQL, PL/SQL</item>
                 <item>SQL Server Reporting Services</item>
             </topic>
             <topic name="Version Control Systems">
                 <item>Mercurial</item>
                 <item>Git</item>
                 <item>Perforce</item>
-                <item>SourceSafe :(</item>
             </topic>
             <topic name="Tools">
-                <item>Visual Studio 2008/2010</item>
+                <item>Visual Studio</item>
                 <item>Resharper</item>
-                <item>Reflector</item>
-                <item>Web Storm, PyCharm, RubyMine</item>
-                <item>Eclipse, Eclipse+Pydev</item>
-                <item>CruiseControl.NET</item>
+                <item>WebStorm, PyCharm, RubyMine</item>
                 <item>TeamCity</item>
+                <item>Jira</item>
                 <item>YouTrack</item>
                 <item>Zabbix</item>
             </topic>
@@ -86,7 +88,7 @@
         <position>
             <from>2012</from>
             <to>present</to>
-            <title>Application Developer</title>
+            <title>Senior Application Developer</title>
             <company>University of Iowa, Iowa City, IA</company>
             <details>
                 <role>
@@ -205,10 +207,7 @@
       <p>
         My only widely used public project is a part of Boost testing framework responsible for running, collecting
         and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source
-        libraries (<a href="http://www.boost.org/development/tests/release/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
-      </p>
-      <p>
-         I am currently working on Jester(<a href="https://github.com/mbergal/Jester">https://github.com/mbergal/Jester</a>) - RSpec style testing framework for PowerShell.
+        libraries (<a href="http://www.boost.org/development/tests/master/developer/summary.html">http://www.boost.org/development/tests/release/developer/summary.html</a>).
       </p>
     </open-source-work>
     <education>
@@ -223,15 +222,9 @@
         <phone>319-3378599</phone>
       </reference>
       <reference>
-        <name>Chris Sutton</name>
-        <title>Senior Software Engineer</title>
-        <company>Center for Public Health Statistics, University of Iowa</company>
-        <email>bdsutton@gmail.com</email>
-      </reference>
-      <reference>
         <name>Valerij Petrulevich</name>
-        <title>Senior Software Engineer</title>
-        <company>University of Iowa Hospital and Clinics</company>
+        <title>Team Lead</title>
+        <company>University of Iowa Financial And Business Information Systems</company>
         <email>vpetrulevich@uiowa.edu</email>
       </reference>
     </references>

@@ -18,37 +18,37 @@ Skills
 ------
 * Programming Languages
 
-    **C#**, **SQL**, **JavaScript**, **HTML**, **CSS + Less**, **XML+XSLT 1.0**, **PowerShell 2.0**.
+    **C#**, **F#**, **Python**, **ColdFusion :(**, **SQL**, **JavaScript**, **HTML**, **CSS + Less**, **XML+XSLT 1.0**, **PowerShell 4.0**.
 
 * Concepts
 
-    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **BDD**.
+    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **Tactical DDD**.
 
 * Frameworks and Technologies
 
     * .NET
 
-        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC and WebForms**, **Silverlight**, **WCF**, **LINQ**, **TPL**, **NUnit**, **Moq**.
+        **.NET 1.1-4.5**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC and WebForms**, **ASP.NET WebApi 2.0**, **WCF**, **LINQ**, **TPL**, **NUnit**, **Moq**.
 
     * Web
 
-        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **JSON/JSONP**, **Jasmine**.
+        **HTML**, **JavaScript**, **jQuery**, **Bootstrap**, **CSS + Less**, **Knockout.js**, **Angular**, **JSON/JSONP**, **Jasmine**.
 
 * RDBMS
 
-    **SQL Server 2005/2008/R2**, **T-SQL**, **SQL Server Reporting Services**.
+    **SQL Server 2005/2008/2012**, **Oracle 11g**, **T-SQL, PL/SQL**, **SQL Server Reporting Services**.
 
 * Version Control Systems
 
-    **Mercurial**, **Git**, **Perforce**, **SourceSafe :(**.
+    **Mercurial**, **Git**, **Perforce**.
 
 * Tools
 
-    **Visual Studio 2008/2010**, **Resharper**, **Reflector**, **Web Storm, PyCharm, RubyMine**, **Eclipse, Eclipse+Pydev**, **CruiseControl.NET**, **TeamCity**, **YouTrack**, **Zabbix**.
+    **Visual Studio**, **Resharper**, **WebStorm, PyCharm, RubyMine**, **TeamCity**, **Jira**, **YouTrack**, **Zabbix**.
 
 Employment
 ----------
-2012 - present, Application Developer, 
+2012 - present, Senior Application Developer, 
 University of Iowa, Iowa City, IA
 
 ###Maintained and developed new Web based solutions for different University of Iowa departments.
@@ -129,9 +129,7 @@ Performed manual, semi-manual & automated testing as was needed.
 
 ### Open-Source Work
 
-My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/release/developer/summary.html)). 
-
-I am currently working on Jester([https://github.com/mbergal/Jester](https://github.com/mbergal/Jester)) - RSpec style testing framework for PowerShell. 
+My only widely used public project is a part of Boost testing framework responsible for running, collecting and displaying release and trunk test results for Boost - a set of free peer-reviewed portable C++ source libraries ([http://www.boost.org/development/tests/release/developer/summary.html](http://www.boost.org/development/tests/master/developer/summary.html)). 
 
 ### Education
 
@@ -144,12 +142,7 @@ MetaCommunications
 blong@meta-comm.com  
 319-3378599  
 
-Chris Sutton  
-Center for Public Health Statistics, University of Iowa  
-bdsutton@gmail.com  
-  
-
 Valerij Petrulevich  
-University of Iowa Hospital and Clinics  
+University of Iowa Financial And Business Information Systems  
 vpetrulevich@uiowa.edu  
   
