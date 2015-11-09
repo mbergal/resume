@@ -19,6 +19,7 @@ Skills
 * Programming Languages
 
     **C#**, **F#**
+    **Python**, **ColdFusion :(**
     **SQL** (T-SQL,PL/SQL), 
     **JavaScript**, **TypeScript** 
     **HTML**, **CSS + Less**, 
@@ -27,13 +28,13 @@ Skills
 
 * Concepts
 
-    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **Tactical DDD**
+    **OOD/OOP**, **SOLID**, **RDBMS**, **ORM**, **TDD**, **Tactical DDD**, **FP**
 
 * Frameworks and Technologies
 
     * .NET
 
-        **.NET 1.1-4.0**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC **, **WCF**, **LINQ**, **NUnit**, **Moq**.
+        **.NET 1.1-4.5**, **Castle**, **NHibernate**, **Entity Framework Model and Code First**, **ADO.NET**, **ASP.NET MVC **, **WCF**, **LINQ**, **NUnit**, **Moq**.
 
     * Web
 
@@ -41,7 +42,7 @@ Skills
 
 * RDBMS
 
-    **SQL Server 2005/2008/R2**, **T-SQL**, **SQL Server Reporting Services**.
+    **SQL Server 2005/2008/2012**, **T-SQL**, **SQL Server Reporting Services**.
     **Oracle 11g**, **PL-SQL**
 
 * Version Control Systems
@@ -51,17 +52,12 @@ Skills
 
 Employment
 ----------
-2012 - present, Application Developer, 
+2012 - present, Senior Application Developer, 
 University of Iowa, Iowa City, IA
 
 ###Maintained and developed new Web based solutions for different University of Iowa departments.
 
-####Design and Planning
-
-Interviewed customers, understood their problems and proposed effective solutions.
-
-Wrote initial specs, made UI wireframes and project estimates.
-
+####
 ####Implementation
 
 Implemented front-ends using HTML, LESS (DotLess) and JavaScript. Used Telerik ASP.NET AJAX UI Controls for legacy WebForms apps, rich Knockout-based JavaScript clients generated with Razor for ASP.NET MVC apps.
@@ -139,16 +135,11 @@ B.S. in Computer Science, Saint Petersburg Technical University.
 ### References
 
 Bob Long  
-MetaCommunications  
+President, MetaCommunications  
 blong@meta-comm.com  
 319-3378599  
 
-Chris Sutton  
-Center for Public Health Statistics, University of Iowa  
-bdsutton@gmail.com  
-  
-
 Valerij Petrulevich  
-University of Iowa Hospital and Clinics  
+Team Lead, University of Iowa, Financial and Business Information System   
 vpetrulevich@uiowa.edu  
   
