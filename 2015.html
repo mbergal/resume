@@ -4,17 +4,38 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.css">
 <style>
 
+.navbar 
+    {
+    margin-top: 10px;
+    }
+
+.nav.name
+    {
+    font-size: 25px;
+    padding-top:6px;    
+    padding-bottom:6px;
+    }
+
+.navbar-brand
+    {
+    padding: 20px 15px 15px 20px;        
+    }
+    
+    
+.navbar-brand img 
+    {
+    margin-top:-11px;
+    margin-left:-10px;    
+    width: 36px;
+    }
+
 @media print
     {
     body 
         {
         font-size: 11px;
         }
-    .navbar 
-        {
-        display: block;
-        }
-        
+
     body h3 
         {
         font-size: 15px;
@@ -24,33 +45,68 @@
         {
         font-size: 17px;
         }
+
+    .navbar 
+        {
+        min-height: inherit;
+        display: block;
+        }
+
+    .navbar-nav > li > a 
+        {   
+        padding-top: 9px;
+        padding-bottom: 5px;
+        }
+
+    .navbar-brand 
+        {
+        padding: 5px 5px;
+        height: inherit;
+        }
+.nav.name
+    {
+    font-size: 18px;
+    padding-top:6px;    
+    padding-bottom:6px;
     }
 
+        
+.navbar-collapse {
+    padding-right: 5px;
+    padding-left: 5px
+    }
+
+    .navbar-brand img 
+        {
+        margin-top:2px;
+        margin-left:2px;    
+        margin-right:2px;
+        width: 25px;
+        }
+
+    }
+
+    
 </style>
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-<nav class="navbar navbar-default" style="margin-top:10px">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="./images/avatar.png" width="48px"/></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#" style="font-size: 20px">      MISHA BERGAL</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">1317 Dolen Place, Iowa City, IA 52245</a></li>
-        <li><a href="mailto:misha.bergal@gmail.com">misha.bergal@gmail.com</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>        
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img  src="./images/avatar.png" /></a>
+                </div>
+                
+                <ul class="nav navbar-nav name">
+                    <li><span>Misha Bergal</span></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">1317 Dolen Place, Iowa City, IA 52245</a></li>
+                    <li><a href="mailto:misha.bergal@gmail.com">misha.bergal@gmail.com</a></li>
+                </ul> 
+            </div>
+        </nav>        
         
 
 
@@ -70,20 +126,20 @@
     <li>F# (type providers)</li>
     <li>Python 2.7</li>
     <li>SQL (T- and PL/ dialects)</li>
-    <li>JavaScript (know good and bad parts, prefer Rambda to underscore)              
-    <li>TypeScript</li>
+    <li>JavaScript (know good and bad parts, prefer Ramda to underscore)              
+    <li>TypeScript (+DefinetelyTyped, I generally prefer static to dynamic typing)</li>
     <li>PowerShell ( <code> | % ? @() @{} [] , ,@() </code>)</li>
     <li>HTML/CSS/Less</li>
-    <li>Scala (took online classes <a href="#">Functional Programming Principles in Scala</a> and <a href="#">Principles of Reactive Programming</a>) with Martin Odersky</li>
-    <li>Haskell (took <a href="#">https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0</a>)
+    <li>Scala (took online classes <a href="https://github.com/mbergal/resume/blob/2015/certs/Functional%20Programming.pdf">Functional Programming Principles in Scala</a> and <a href="https://github.com/mbergal/resume/blob/2015/certs/Coursera%20reactive%202014.pdf">Principles of Reactive Programming</a> with Martin Odersky)</li>
+    <li>Haskell (took <a href="https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0">Introduction to Functional Programming</a> with Erik Meijer)
 </ul>
 
 
 Used, but do not want to use any more
 <ul>
-    <li>C++ (MPL)</li>
-    <li>XML+XSLT (wrote <a href="#">http://www.boost.org/development/tests/master/developer/summary.html</a>)</li>
-    <li>ColdFusion (cfscript, underscore.cfc)</li>
+    <li>C++ (used to know C++07)</li>
+    <li>XML+XSLT (co-wrote <a href="http://www.boost.org/development/tests/master/developer/summary.html">Boost Regression Testing framework</a>)</li>
+    <li>ColdFusion (cfscript, underscore.cfc - had to do what needed to be done)</li>
 </ul>
 
 </table>
@@ -94,18 +150,18 @@ Used, but do not want to use any more
     <li>SOLID</li>
     <li>ORM</li>
     <li>Fast (Unit) and slow (integration) testing</li>
-    <li>Tactical DDD (w/o CQRS)</li>
+    <li>Tactical DDD (no strategic DDD and CQRS)</li>
     <li>FP <code>( Ma -> (a->Mb) -> Mb )</code></li>
 </ul>
 
 <h4>Frameworks and Technologies</h4>
 
 <ul>
-    <li><span style="display:inline-block;width:100px">.NET:</span> Castle Windsor, NHibernate, Entity Framework, ADO.NET, ASP.NET MVC, ASP.NET WebApi 2.0, WCF, LINQ, TPL, NUnit, Moq, PDFBox</li>
-    <li><strong style="display:inline-block;width:100px">JavaScript:</strong> jQuery, Bootstrap, underscore.js, Knockout.js, Angular, AngularStrap, JSON/JSONP, Jasmine.
-    <li><strong style="display:inline-block;width:100px">Databases:</strong> SQL Server 2005/2008/2012, Oracle 11g, T-SQL, PL/SQL, SQL Server Reporting Services.
-    <li><strong style="display:inline-block;width:100px">VCS:</strong>Mercurial, Git, Perforce (know the difference between Hg and Git branches).
-    <li><strong style="display:inline-block;width:100px">SDLC tools:</strong>Jira, TeamCity, Jenkins (set up build configs, chains, created sophisticated multiple deliverable dependent builds).
+    <li><strong>.NET:</strong> Castle Windsor, NHibernate, Entity Framework, ADO.NET, ASP.NET MVC, ASP.NET WebApi, WCF, LINQ, TPL, NUnit, Moq, PDFBox</li>
+    <li><strong>JavaScript:</strong> jQuery, Bootstrap, underscore.js, Knockout.js, Angular, AngularStrap, JSON/JSONP, Jasmine.
+    <li><strong>Databases:</strong> SQL Server 2005/2008/2012, Oracle 11g, T-SQL, PL/SQL, SQL Server Reporting Services.
+    <li><strong>VCS:</strong> Mercurial, Git, Perforce (know the difference between Hg and Git branches).
+    <li><strong>SDLC tools:</strong> Jira, TeamCity, Jenkins (set up build configs, chains, created sophisticated multiple deliverable dependent builds).
     </li>
 </ul>
 
@@ -115,93 +171,94 @@ Used, but do not want to use any more
 <h4>2012 - present, Senior Application Developer, University of Iowa, Iowa City, IA</h4>
 
 <p>Worked on small to medium size solutions for different University of Iowa departments, including batch processes for variable printing, managing reviews of driver licenses for University of Iowa 
-drivers, mini-insurance system for managing claims for University of Iowa auto and real estate incidents, university wide travel and procurement expense management system (rewrite from ColdFusion to .NET).</p>
+drivers, mini-insurance system for managing claims for University of Iowa auto and real estate incidents, University wide travel and procurement expense management system (rewrite from ColdFusion to .NET).</p>
 
 <p>Worked on building a professional software development team, setting up processes, establishing shared vision, creating and maintaining standard operating procedures (SOP), supervised other developers.</p>
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Design and Planning
     </div>
-    <div class="col-md-10">
-        Talked to customers, understood their problems, proposed and discussed solutions. Wrote specs, UI wireframes and project estimates. Generally, made things go.
+    <div class="col-xs-10">
+        Talked to customers, understood their problems, proposed and discussed solutions. Wrote specs, created UI wireframes and project estimates. Generally, made things go forward.
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Front-End Implementation
     </div>
-    <div class="col-md-10">
+    <div class="col-xs-10">
         Wrote front-ends in Angular, Knockout, jQuery, Telerik web controls using Bootstrap, AngularStrap  
         (the mess of technologies is the result of having to support many systems including very old ones)
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Back-End Implementation
     </div>
-    <div class="col-md-10">
+    <div class="col-xs-10">
         DDD-ish backends (domain model, repos, services, aggregate roots, domain events) written in C#, LINQ for SQL, SQL, EF going against SQL Server and Oracle. All components wired together
                           using IoC container (Windsor). From no coverate to full coverage by fast (unit) and slow (integration) tests.        
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Automation
     </div>
-    <div class="col-md-10">
-        Wrote installation (Desired State Configuration), deployment (we have our own Octopus-like deployment service), created a configuration management DSL 
+    <div class="col-xs-10">
+        Wrote installation (Desired State Configuration), deployment (we have our own Octopus-like deployment service) scripts, created a configuration management DSL that was used to create
+        queryable infrastructure model. Automated existing processes, created 
+        utilities for Active Directory, Confluence, TeamCity, Sql Server and Oracle.
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Team
     </div>
-    <div class="col-md-10">
-        Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end). 
-                          Made efforts to introduce policies regarding code sharing and continuous integration/deployment.
+    <div class="col-xs-10">
+        Implemented shared between projects library of components to codify best practices (for front-end as well as for back-end). Made efforts to introduce policies regarding code sharing and continuous integration/deployment. Persisted in establishing team protocols (e.g. "Ask for help", "Check in", "Double-check", "Shared vision")
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Data Analysis and Reporting
     </div>
-    <div class="col-md-10">
+    <div class="col-xs-10">
         Wrote SSRS reports, wrote  a rdl report formatter that allowed to define SSRS object styles using selectors and definitions (stylesheets for RDL), made data analysis tools using F#.
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Testing
     </div>
-    <div class="col-md-10">
+    <div class="col-xs-10">
         Wrote a bit of acceptance tests using home-grown WebDriver based framework that allowed to separate logical and physical concepts. Wrote test plans for manual testing and did that
                           testing myself.
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Education and training
     </div>
-    <div class="col-md-10">
+    <div class="col-xs-10">
         Made presentations and organized seminars to teach colleagues about modern tools and methods.
         Set up student and staff code reviews, actively provided feedback and challenges for students working for department.
     </div>
 </div>    
 
 <div class="row" style="margin-top:10px">
-    <div class="col-md-2">
+    <div class="col-xs-2">
         Operations and Developer Infrastructure 
     </div>
-    <div class="col-md-9">
-        Installed and maintained TeamCity and Rhodecode installations, wrote major pieces of build and continuous deployment system.
+    <div class="col-xs-10">
+        Installed and maintained TeamCity, Jenkins and Rhodecode installations, administered Windows production and test servers.
     </div>
 </div>    
 
@@ -213,7 +270,7 @@ testing (automated and manual), office and personnel management.</p>
 <h3>References</h3>
 <ul>
     <li>Bob Long, President, MetaCommunications, <a href="mailto:blong@meta-comm.com">blong@meta-comm.com</a>, 319-3378599</li>
-    <li>Ben Barreras, Assistand Directory, University of Iowa, <a href="mailto:blong@meta-comm.com">barreras@uiowa.edu</a>, 319-3378599</li>
+    <li>Ben Barreras, Assistant Director, University of Iowa, <a href="mailto:barreras@uiowa.edu">barreras@uiowa.edu</a>, 319-3378599</li>
     <li>Valerij Petrulevich, University of Iowa Financial And Business Information Systems, <a href="mailto:vpetrulevich@uiowa.edu">vpetrulevich@uiowa.edu</a></li>
 
 
